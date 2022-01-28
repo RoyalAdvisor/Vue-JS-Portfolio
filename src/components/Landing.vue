@@ -276,5 +276,9 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .my-image {
+    border-radius: 15px;
+    width: 100%;
+  }
 }
 </style>
