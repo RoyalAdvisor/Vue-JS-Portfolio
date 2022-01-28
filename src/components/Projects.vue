@@ -189,4 +189,24 @@ export default {
     left: 0.2em;
   }
 }
+@media only screen and (max-width: 770px) {
+  .project-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 92%;
+    margin: 5rem;
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .project-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 5rem;
+    border-radius: 10px;
+  }
+}
 </style>

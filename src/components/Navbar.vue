@@ -13,15 +13,15 @@
       />
     </svg>
     <nav class="nav">
-      <a href="#landing-page">HOME</a>
-      <a href="#about-page">ABOUT</a>
-      <a href="#projects-page">PROJECTS</a>
-      <a href="#testimonials-page">TESTIMONIALS</a>
-      <a href="#contact-page">CONTACT</a>
+      <a href="#landing-page" class="nav-link">HOME</a>
+      <a href="#about-page" class="nav-link">ABOUT</a>
+      <a href="#projects-page" class="nav-link">PROJECTS</a>
+      <a href="#testimonials-page" class="nav-link">TESTIMONIALS</a>
+      <a href="#contact-page" class="nav-link">CONTACT</a>
     </nav>
   </div>
   <div class="menu-container">
-    <button class="menu is-active" type="button">
+    <button class="menu" type="button">
       <div class="bar"></div>
     </button>
   </div>
@@ -48,6 +48,10 @@ export default {
   box-sizing: border-box;
 }
 
+.nav-link.active {
+  color: green;
+}
+
 .nav-container {
   padding: 10px;
   display: flex;
@@ -59,10 +63,6 @@ export default {
   position: fixed;
   z-index: 5;
   transition: 0.3s ease-in-out;
-}
-
-.nav.scroll {
-  background-color: blueviolet;
 }
 .nav-container svg {
   color: #fff;
@@ -123,10 +123,6 @@ export default {
   justify-content: flex-end;
   width: 100%;
 }
-.scroll {
-  background-color: #a1572f;
-  color: #eef;
-}
 
 .nav a {
   text-decoration: none;
@@ -139,7 +135,7 @@ export default {
 }
 
 nav a:hover {
-  color: aqua;
+  color: #000;
 }
 
 .mobile-nav {
@@ -149,10 +145,10 @@ nav a:hover {
   align-items: center;
   flex-direction: column;
   top: 0;
-  right: 0;
+  right: -100%;
 
-  background-color: rgba(0, 0, 0, 85%);
-  width: 40%;
+  background-color: black;
+  width: 50%;
   height: 100%;
   z-index: 99;
   transition: 0.4s ease-in-out;
@@ -169,12 +165,12 @@ nav a:hover {
 
 .m-nav a {
   text-decoration: none;
-  width: 200px;
+  width: 100%;
   font-weight: 700;
   font-size: 1rem;
   color: #fff;
+  background: rgb(10, 10, 10);
   transition: 200ms ease-in-out;
-  background-color: rgba(0, 0, 0, 30%);
   padding: 10px;
 }
 
@@ -185,7 +181,7 @@ nav a:hover {
   align-items: center;
   flex-direction: column;
   top: 0;
-  right: -100%;
+  right: 0;
   height: 100%;
   transition: 0.4s ease-in-out;
 }

@@ -4,6 +4,7 @@
   <About />
   <Projects />
   <Testimonials />
+  <Footer />
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import Landing from "./components/Landing.vue";
 import About from "./components/About.vue";
 import Projects from "./components/Projects.vue";
 import Testimonials from "./components/Testimonials.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -21,6 +23,7 @@ export default {
     Projects,
     Navbar,
     Testimonials,
+    Footer,
   },
 };
 </script>

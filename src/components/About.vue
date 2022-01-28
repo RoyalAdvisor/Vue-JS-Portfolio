@@ -110,7 +110,7 @@ export default {
   box-sizing: border-box;
 }
 .about-container {
-  margin-top: 15rem;
+  margin-top: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -212,7 +212,7 @@ export default {
     flex-direction: column;
   }
   .about-container {
-    margin-top: 50rem;
+    margin-top: 45rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -256,6 +256,70 @@ export default {
   }
   .item svg {
     width: 100px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  #about-page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+  }
+  .about-container {
+    margin-top: 30rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20rem;
+  }
+  .about-content {
+    width: 100%;
+    padding: 25px;
+    margin: 0;
+  }
+  .about-progress {
+    width: 100%;
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .skill-icons {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+  }
+  .item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    flex-direction: row-reverse;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 20%);
+  }
+  .item svg {
+    width: 15%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .about-container {
+    margin-top: 22rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25rem;
   }
 }
 </style>

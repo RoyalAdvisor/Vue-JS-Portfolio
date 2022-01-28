@@ -16,8 +16,7 @@ window.onscroll = function () {
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.querySelector(".nav-container").style.background =
-      "rgba(0, 20, 0, 85%)";
+    document.querySelector(".nav-container").style.background = "black";
   } else {
     document.querySelector(".nav-container").style.background =
       "linear-gradient(to right, #fdfc47, #24fe41)";
@@ -29,5 +28,15 @@ collapse.forEach((element) => {
   element.addEventListener("click", () => {
     mobile_menu.classList.toggle("is-active");
     menu_btn.classList.remove("is-active");
+  });
+});
+
+const mobileLinks = document.querySelectorAll(".nav-link");
+mobileLinks.forEach((el) => {
+  el.addEventListener("click", (e) => {
+    mobileLinks.forEach((el) => {
+      el.classList.remove("active");
+    });
+    e.target.classList.add("active");
   });
 });

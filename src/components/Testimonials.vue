@@ -11,6 +11,103 @@
         <div class="card-content">
           <h2>{{ item.name }}</h2>
           <p>{{ item.content }}</p>
+          <div class="rating">
+            <span>
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="star"
+                width="20"
+                height="20"
+                class="svg-inline--fa fa-star"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M316.7 17.8l65.43 132.4l146.4 21.29c26.27 3.796 36.79 36.09 17.75 54.59l-105.9 102.1l25.05 145.5c4.508 26.31-23.23 45.9-46.49 33.7L288 439.6l-130.9 68.7C133.8 520.5 106.1 500.9 110.6 474.6l25.05-145.5L29.72 226.1c-19.03-18.5-8.516-50.79 17.75-54.59l146.4-21.29l65.43-132.4C271.1-6.083 305-5.786 316.7 17.8z"
+                ></path>
+              </svg>
+            </span>
+            <span>
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="star"
+                width="20"
+                height="20"
+                class="svg-inline--fa fa-star"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M316.7 17.8l65.43 132.4l146.4 21.29c26.27 3.796 36.79 36.09 17.75 54.59l-105.9 102.1l25.05 145.5c4.508 26.31-23.23 45.9-46.49 33.7L288 439.6l-130.9 68.7C133.8 520.5 106.1 500.9 110.6 474.6l25.05-145.5L29.72 226.1c-19.03-18.5-8.516-50.79 17.75-54.59l146.4-21.29l65.43-132.4C271.1-6.083 305-5.786 316.7 17.8z"
+                ></path>
+              </svg>
+            </span>
+            <span>
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="star"
+                width="20"
+                height="20"
+                class="svg-inline--fa fa-star"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M316.7 17.8l65.43 132.4l146.4 21.29c26.27 3.796 36.79 36.09 17.75 54.59l-105.9 102.1l25.05 145.5c4.508 26.31-23.23 45.9-46.49 33.7L288 439.6l-130.9 68.7C133.8 520.5 106.1 500.9 110.6 474.6l25.05-145.5L29.72 226.1c-19.03-18.5-8.516-50.79 17.75-54.59l146.4-21.29l65.43-132.4C271.1-6.083 305-5.786 316.7 17.8z"
+                ></path>
+              </svg>
+            </span>
+            <span>
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="star"
+                width="20"
+                height="20"
+                class="svg-inline--fa fa-star"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M316.7 17.8l65.43 132.4l146.4 21.29c26.27 3.796 36.79 36.09 17.75 54.59l-105.9 102.1l25.05 145.5c4.508 26.31-23.23 45.9-46.49 33.7L288 439.6l-130.9 68.7C133.8 520.5 106.1 500.9 110.6 474.6l25.05-145.5L29.72 226.1c-19.03-18.5-8.516-50.79 17.75-54.59l146.4-21.29l65.43-132.4C271.1-6.083 305-5.786 316.7 17.8z"
+                ></path>
+              </svg>
+            </span>
+            <span>
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="star-half"
+                width="20"
+                height="20"
+                class="svg-inline--fa fa-star-half"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M288 439.6l-130.9 68.7C152.2 510.8 147.1 512 142.2 512c-18.59 0-35.17-16.66-31.61-37.45l25.04-145.5L29.72 226.1C10.68 207.6 21.2 175.3 47.47 171.5l146.4-21.29l65.43-132.4c5.883-11.91 17.33-17.8 28.73-17.8c.0234 0-.0234 0 0 0L288 439.6z"
+                ></path>
+              </svg>
+            </span>
+          </div>
           <cite>{{ item.title }}</cite>
         </div>
       </div>
@@ -61,9 +158,10 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .card {
-  width: 30%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 5px rgba(0, 0, 0, 10%);
@@ -89,6 +187,9 @@ export default {
 .card-content p {
   line-height: 25px;
 }
+.rating {
+  margin-bottom: 5px;
+}
 
 @media only screen and (max-width: 1100px) {
   .testimonials-container {
@@ -113,7 +214,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 25px;
   }
   .card-image img {
     width: 100%;
@@ -122,6 +223,73 @@ export default {
   .card-content {
     width: 100%;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .testimonials-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .card {
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 10%);
+    color: #000;
+    border-radius: 5px;
+  }
+  .card-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  .card-image img {
+    width: 90%;
+    border-radius: 50%;
+  }
+  .card-content {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .card {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 10%);
+    color: #000;
+    border-radius: 5px;
+  }
+  .card-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  .card-image img {
+    width: 80%;
+    border-radius: 50%;
+  }
+  .card-content {
+    width: 100%;
+    padding: 25px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
