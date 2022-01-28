@@ -97,6 +97,7 @@ footer {
   display: flex;
   width: 100%;
   background: #000;
+  flex-wrap: wrap;
   color: #fff;
   justify-content: center;
   align-items: center;
