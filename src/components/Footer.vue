@@ -134,7 +134,7 @@ footer {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1rem;
 }
 .s-item {
   text-decoration: none;
