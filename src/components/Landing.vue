@@ -279,6 +279,7 @@ body {
   .my-image {
     border-radius: 15px;
     width: 100%;
+    object-fit: cover;
   }
 }
 </style>
