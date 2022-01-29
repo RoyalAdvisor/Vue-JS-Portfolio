@@ -324,8 +324,8 @@ export default {
   color: #000;
   margin-top: 5rem;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
 }
 }
 </style>
