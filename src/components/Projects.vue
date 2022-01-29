@@ -216,8 +216,17 @@ export default {
   align-items: center;
   flex-direction: column;
   color: #000;
-  margin: 2rem;
+  width: 100%;
+  padding: 25px;
   line-height: 10px;
 }
+  .splide__arrow--next {
+    right: 0.2em;
+    display: none;
+  }
+  .splide__arrow--prev {
+    left: 0.2em;
+    display: none;
+  }
 }
 </style>
