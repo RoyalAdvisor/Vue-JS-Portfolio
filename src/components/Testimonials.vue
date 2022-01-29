@@ -171,6 +171,7 @@ export default {
   font-size: 35px;
   color: #000;
   margin-top: 5rem;
+  text-align: left;
 }
 .testimonials-container {
   width: 80%;
@@ -322,9 +323,7 @@ export default {
   font-size: 35px;
   color: #000;
   margin-top: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  text-align: left;
 }
 }
 </style>
