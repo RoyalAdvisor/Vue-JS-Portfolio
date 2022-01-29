@@ -112,7 +112,7 @@ footer {
   gap: 3rem;
 }
 .contact-item {
-  width: 90%;
+  width: 100%;
   color: #696969;
 }
 .contact-heading p {
@@ -126,7 +126,7 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 2rem;
-  width: 90%;
+  width: 100%;
   color: #696969;
 }
 .social-item h3 {
