@@ -108,7 +108,7 @@ footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 90%;
+  width: 100%;
   gap: 3rem;
 }
 .contact-item {
