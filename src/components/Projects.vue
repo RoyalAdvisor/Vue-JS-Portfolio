@@ -128,7 +128,7 @@ export default {
   font-size: 35px;
   color: #000;
   margin-top: 5rem;
-  text-align: left;
+  text-align: center;
 }
 .project-container {
   display: flex;
@@ -211,6 +211,10 @@ export default {
   color: #000;
   margin-top: 5rem;
   text-align: left;
+}
+  .project-heading {
+  width: 100%;
+  padding: 25px;
 }
   .splide-item {
   display: flex;
