@@ -313,7 +313,7 @@ export default {
 }
 @media only screen and (max-width: 576px) {
   .about-container {
-    margin-top: 25rem;
+    margin-top: 30rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
