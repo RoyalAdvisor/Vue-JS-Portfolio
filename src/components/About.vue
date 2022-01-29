@@ -4,12 +4,8 @@
       <div class="about-content">
         <h1>ABOUT MYSELF</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore alias
-          sapiente consequuntur quis eveniet culpa magnam cum voluptatem
-          laudantium iure ut beatae consectetur repudiandae voluptates, autem
-          quisquam ratione vero impedit ducimus veritatis officiis. Vel in
-          dolorem vero totam impedit. Omnis nobis quia beatae voluptates
-          deserunt tenetur totam optio aliquid officia.
+          Hungry, driven and tenacious. That's how I'd describe myself. When I'm not busy coding and compiling, I'm spending time designing playing cards, practicing cardistry or learning more about web development. 
+Below you'll find my current skill stack, with HTML, CSS and JavaScript as my core skills. 
         </p>
         <div class="skill-icons">
           <div class="item">
