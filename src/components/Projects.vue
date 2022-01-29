@@ -210,5 +210,14 @@ export default {
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 10%);
   }
+  .splide-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+  margin: 2rem;
+  line-height: 10px;
+}
 }
 </style>
