@@ -124,7 +124,7 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 2rem;
-  width: 50%;
+  width: 40%;
   color: #696969;
 }
 .social-item h3 {
@@ -133,8 +133,8 @@ footer {
 .social-icons {
   display: flex;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 5px;
+  flex-direction: column;
+  gap: 1rem;
 }
 .s-item {
   text-decoration: none;
