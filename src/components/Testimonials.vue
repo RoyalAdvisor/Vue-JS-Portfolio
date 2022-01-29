@@ -323,7 +323,9 @@ export default {
   font-size: 35px;
   color: #000;
   margin-top: 5rem;
-  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 }
 </style>
