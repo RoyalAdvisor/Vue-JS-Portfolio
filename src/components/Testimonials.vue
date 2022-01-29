@@ -171,7 +171,7 @@ export default {
   font-size: 35px;
   color: #000;
   margin-top: 5rem;
-  text-align: left;
+  text-align: center;
 }
 .testimonials-container {
   width: 80%;
