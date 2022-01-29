@@ -217,7 +217,7 @@ export default {
   flex-direction: column;
   color: #000;
   width: 100%;
-  padding: 25px;
+  margin: 2rem;
   line-height: 10px;
 }
   .splide__arrow--next {
