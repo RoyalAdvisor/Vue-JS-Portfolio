@@ -284,7 +284,7 @@ body {
 }
 @media only screen and (max-width: 576px) {
   .landing-container {
-    border-radius: none;
+    border-radius: 0px;
   }
 }
 </style>
