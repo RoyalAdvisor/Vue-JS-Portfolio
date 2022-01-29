@@ -15,10 +15,8 @@
             <h1 class="my-name">Nadeem Johnson</h1>
             <h2 class="my-title">Aspiring Full-Stack Developer</h2>
             <p class="my-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              quibusdam, dolorem eligendi laborum similique, architecto
-              asperiores sint ea quod suscipit consequuntur nostrum optio
-              voluptates et veniam quo laudantium nam ullam.
+              I enjoy building and designing visually aesthetic, simplistic websites with a touch of minimalism.
+I started web development as I believe it's one of the most powerful resources out there. If used correctly, it can captive millions. Bring innovation and knowledge to the farthest regions of the world. And allow us to connect on levels never experienced before. 
             </p>
           </div>
           <div class="item-icons">
