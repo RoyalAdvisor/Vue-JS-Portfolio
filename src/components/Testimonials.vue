@@ -308,7 +308,7 @@ export default {
   }
   .card-image img {
     width: 80%;
-    border-radius: 50%;
+    border-radius: 10px;
   }
   .card-content {
     width: 100%;
