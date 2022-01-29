@@ -318,5 +318,11 @@ export default {
     align-items: flex-start;
     flex-direction: column;
   }
+  .testimonials-heading h1 {
+  font-weight: 900;
+  font-size: 35px;
+  color: #000;
+  margin-top: 5rem;
+}
 }
 </style>
