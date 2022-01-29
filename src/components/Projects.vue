@@ -137,8 +137,6 @@ export default {
   width: 80%;
   margin: 5rem;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 /* SLIDER */
@@ -172,8 +170,6 @@ export default {
     justify-content: center;
     width: 80%;
     border-radius: 10px;
-    background: rgba(250, 250, 250, 0.4);
-    box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
   }
   #splide01 {
     width: 100%;
@@ -217,6 +213,7 @@ export default {
   color: #000;
   width: 100%;
   margin: 0 auto;
+  padding: 25px;
   line-height: 10px;
 }
   .splide__arrow--next {
