@@ -100,7 +100,7 @@ export default {
 
   margin: 0 auto 5px;
 
-  background-color: #000;
+  background-color: #fff;
 
   transition: 0.5s ease-in-out;
 }
@@ -204,7 +204,7 @@ nav a:hover {
   }
 
   .menu-container {
-    background-color: transparent;
+    background-color: #000;
     width: 100%;
     height: 80px;
     padding: 20px;
