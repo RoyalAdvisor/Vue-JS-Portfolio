@@ -128,7 +128,6 @@ export default {
   font-size: 35px;
   color: #000;
   margin-top: 5rem;
-  text-align: center;
 }
 .project-container {
   display: flex;
@@ -211,8 +210,8 @@ export default {
   color: #000;
   margin-top: 5rem;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
 }
   .splide-item {
   display: flex;
