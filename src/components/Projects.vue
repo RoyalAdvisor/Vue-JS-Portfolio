@@ -204,7 +204,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 85%;
+    width: 100%;
     margin: 5rem;
     border-radius: 10px;
   }
