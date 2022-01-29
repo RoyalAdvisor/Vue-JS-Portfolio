@@ -323,13 +323,11 @@ export default {
   }
    .about-content {
     width: 100%;
-    padding: 25px;
     margin: 0;
   }
   .about-progress {
     width: 100%;
     display: flex;
-    padding: 25px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
