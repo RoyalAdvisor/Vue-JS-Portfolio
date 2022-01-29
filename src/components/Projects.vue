@@ -149,7 +149,7 @@ export default {
   flex-direction: column;
   color: #000;
   margin: 2rem;
-  line-height: 10px;
+  line-height: 25px;
 }
 .slider-image {
   width: 70%;
