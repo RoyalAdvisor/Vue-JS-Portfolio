@@ -324,6 +324,7 @@ export default {
    .about-content {
     width: 100%;
     margin: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 10%);
   }
   .about-progress {
     width: 100%;
@@ -331,6 +332,7 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 10%);
   }
 }
 </style>
