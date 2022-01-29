@@ -114,6 +114,7 @@ footer {
 .contact-item {
   width: 100%;
   color: #696969;
+  padding: 25px;
 }
 .contact-heading p {
   line-height: 25px;
@@ -128,6 +129,7 @@ footer {
   gap: 2rem;
   width: 100%;
   color: #696969;
+  padding: 25px;
 }
 .social-item h3 {
   color: #fff;
