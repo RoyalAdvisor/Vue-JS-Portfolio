@@ -106,11 +106,13 @@ footer {
   margin-top: 10rem;
   margin-bottom: 10rem;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   width: 90%;
   gap: 3rem;
 }
 .contact-item {
-  width: 50%;
+  width: 100%;
   color: #696969;
 }
 .contact-heading p {
@@ -124,7 +126,7 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 2rem;
-  width: 40%;
+  width: 100%;
   color: #696969;
 }
 .social-item h3 {
@@ -133,7 +135,7 @@ footer {
 .social-icons {
   display: flex;
   justify-content: flex-start;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
 }
 .s-item {
