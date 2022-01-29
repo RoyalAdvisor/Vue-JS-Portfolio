@@ -325,5 +325,9 @@ export default {
   margin-top: 5rem;
   text-align: left;
 }
+  .testimonials-heading {
+  width: 100%;
+  padding: 25px;
+}
 }
 </style>
