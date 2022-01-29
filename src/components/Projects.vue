@@ -205,6 +205,12 @@ export default {
     gap: 3rem;
     background: none;
   }
+  .project-heading h1 {
+  font-weight: 900;
+  font-size: 35px;
+  color: #000;
+  margin-top: 5rem;
+}
   .splide-item {
   display: flex;
   justify-content: center;
