@@ -323,7 +323,7 @@ export default {
   font-size: 35px;
   color: #000;
   margin-top: 5rem;
-  text-align: start;
+  text-align: left;
 }
 }
 </style>
