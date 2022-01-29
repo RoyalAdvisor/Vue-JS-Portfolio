@@ -257,7 +257,7 @@ body {
     width: 100%;
     height: fit-content;
     background-color: #fff;
-    top: 0;
+    top: 60px;
     display: flex;
     margin: 0 auto;
     box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
