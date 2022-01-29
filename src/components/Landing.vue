@@ -282,4 +282,9 @@ body {
     object-fit: cover;
   }
 }
+@media only screen and (max-width: 576px) {
+  .landing-container {
+    border-radius: none;
+  }
+}
 </style>
