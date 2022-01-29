@@ -322,9 +322,6 @@ export default {
     width: 100%;
     margin: 0;
   }
-  .about-content h1 {
-    text-align: center;
-  }
   .about-progress {
     width: 100%;
     display: flex;
