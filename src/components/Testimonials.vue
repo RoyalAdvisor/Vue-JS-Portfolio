@@ -292,7 +292,7 @@ export default {
 }
 @media only screen and (max-width: 576px) {
   .card {
-    width: 90%;
+    width: 88%;
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 5px rgba(0, 0, 0, 10%);
