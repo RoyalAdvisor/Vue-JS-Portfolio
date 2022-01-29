@@ -206,6 +206,7 @@ export default {
     justify-content: center;
     width: 100%;
     margin: 5rem;
+    column-gap: 2rem;
     background: none;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 10%);
@@ -217,7 +218,7 @@ export default {
   flex-direction: column;
   color: #000;
   width: 100%;
-  margin: 2rem;
+  margin: 0 auto;
   line-height: 10px;
 }
   .splide__arrow--next {
