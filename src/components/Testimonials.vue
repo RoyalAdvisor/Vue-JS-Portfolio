@@ -322,6 +322,7 @@ export default {
   font-size: 35px;
   color: #000;
   margin-top: 5rem;
+  margin-bottom: 5rem;
   text-align: left;
 }
   .testimonials-heading {
