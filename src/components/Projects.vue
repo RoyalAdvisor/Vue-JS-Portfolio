@@ -201,6 +201,7 @@ export default {
     justify-content: center;
     width: 100%;
     gap: 3rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 10%);
     background: none;
   }
   .project-heading h1 {
@@ -208,6 +209,7 @@ export default {
   font-size: 35px;
   color: #000;
   margin-top: 5rem;
+  margin-bottom: 5rem:
   text-align: left;
 }
   .project-heading {
