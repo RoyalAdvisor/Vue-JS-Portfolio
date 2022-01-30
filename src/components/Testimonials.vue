@@ -186,7 +186,6 @@ export default {
   width: 20%;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 10%);
   color: #000;
   border-radius: 5px;
 }
@@ -227,7 +226,6 @@ export default {
     width: 100%;
     display: flex;
     flex-direction: row;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 10%);
     color: #000;
     border-radius: 5px;
   }
@@ -265,7 +263,6 @@ export default {
     width: 92%;
     display: flex;
     flex-direction: row;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 10%);
     color: #000;
     border-radius: 5px;
   }
