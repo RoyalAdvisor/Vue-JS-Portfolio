@@ -180,7 +180,6 @@ export default {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 .card {
