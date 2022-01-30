@@ -191,7 +191,6 @@ export default {
     align-items: center;
     justify-content: center;
     width: 92%;
-    margin: 5rem;
     border-radius: 10px;
   }
 }
@@ -201,7 +200,6 @@ export default {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin: 5rem;
     gap: 3rem;
     background: none;
   }
