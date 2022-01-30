@@ -258,7 +258,7 @@ body {
     top: 60px;
     display: flex;
     margin: 0 auto;
-    box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
+    box-shadow: 0px;
     padding: 25px;
   }
   .item-right {
