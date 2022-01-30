@@ -316,7 +316,6 @@ export default {
     justify-content: center;
     align-items: center;
     row-gap: 25rem;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 10%);
   }
    .about-content {
     width: 100%;
