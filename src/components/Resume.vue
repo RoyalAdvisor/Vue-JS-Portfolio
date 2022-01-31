@@ -8,7 +8,7 @@
         <ul>
           <li>
             <div class="right_content">
-              <h2>Groote Schuur High School</h2>
+              <h4>Groote Schuur High School</h4>
               <p>
                 Completed my National Senior Certificate at this institute with
                 a Bachelor's pass in English, Afrikaans, Maths Literacy, Life
@@ -21,7 +21,7 @@
           </li>
           <li>
             <div class="right_content">
-              <h2>Rlabs Youth Cafe</h2>
+              <h4>Rlabs Youth Cafe</h4>
               <p>
                 Started attending this "for youth" initiative by Rlabs called
                 the Youth Cafe. While I was there I attended a multitude of
@@ -36,7 +36,7 @@
           </li>
           <li>
             <div class="right_content">
-              <h2>EOS Group</h2>
+              <h4>EOS Group</h4>
               <p>
                 I started working at this company initially as a general worker,
                 eventually working my way up to a more demanding and technical
@@ -50,7 +50,7 @@
           </li>
           <li>
             <div class="right_content">
-              <h2>SellDirect Marketing</h2>
+              <h4>SellDirect Marketing</h4>
               <p>
                 I decided to explore a different work environment and found
                 myself in a call centre. A high pace, target driven environment
@@ -66,7 +66,7 @@
           </li>
           <li>
             <div class="right_content">
-              <h2>Lost myself...</h2>
+              <h4>Lost myself...</h4>
               <p>
                 Due to the high intensity of my previous job, I experienced a
                 tremendous amount of stress which eventually become hazardous to
@@ -81,7 +81,7 @@
           </li>
           <li>
             <div class="right_content">
-              <h2>Motion Control Cards</h2>
+              <h4>Motion Control Cards</h4>
               <p>
                 After I recovered, I began focusing on an old passion of mine.
                 Designing playing cards. I started developing my own custom
@@ -96,7 +96,7 @@
           </li>
           <li>
             <div class="right_content">
-              <h2>My journey into web development starts...</h2>
+              <h4>My journey into web development starts...</h4>
               <p>
                 I've always been interested in tech. Growing up, I was the
                 always the person people would come to if they had an issue with
@@ -208,7 +208,7 @@ export default {
   padding: 40px 70px;
 }
 
-.timeline ul li .right_content h2 {
+.timeline ul li .right_content h4 {
   color: #f83600;
   padding: 0px 2px 18px 0px;
   line-height: 25px;
