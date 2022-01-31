@@ -173,4 +173,30 @@ footer {
     padding: 0;
   }
 }
+@media only screen and (max-width: 770px) {
+  .contact-container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .contact-item {
+    width: 90%;
+    color: #696969;
+    padding: 0;
+  }
+  .social-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 90%;
+    color: #696969;
+    padding: 0;
+  }
+}
 </style>
