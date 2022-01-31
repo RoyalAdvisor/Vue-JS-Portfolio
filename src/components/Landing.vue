@@ -255,7 +255,6 @@ body {
 @media only screen and (max-width: 770px) {
   #landing-page {
     width: 100%;
-    height: 100vh;
     background: #fff;
     margin: 0;
     padding: 0;
