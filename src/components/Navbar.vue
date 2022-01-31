@@ -177,7 +177,6 @@ body {
   font-weight: 700;
   font-size: 1rem;
   color: #fff;
-  background: rgb(10, 10, 10);
   transition: 200ms ease-in-out;
   padding: 10px;
 }
@@ -222,6 +221,17 @@ body {
     justify-content: flex-start;
     align-items: center;
     z-index: 6;
+  }
+  .mobile-nav.is-active {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    height: 100%;
+    transition: 0.4s ease-in-out;
   }
 }
 @media only screen and (max-width: 2000px) and (min-width: 771px) {
