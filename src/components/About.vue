@@ -150,6 +150,7 @@ body {
 }
 .about-content p {
   line-height: 25px;
+  color: rgba(0, 0, 0, 85%);
 }
 .skill-icons {
   margin-top: 3rem;

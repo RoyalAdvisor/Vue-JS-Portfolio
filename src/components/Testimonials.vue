@@ -220,9 +220,13 @@ body {
 }
 .card-content p {
   line-height: 25px;
+  color: rgba(0, 0, 0, 85%);
 }
 .rating {
   margin-bottom: 5px;
+}
+cite {
+  color: rgba(0, 0, 0, 85%);
 }
 
 @media only screen and (max-width: 1100px) {

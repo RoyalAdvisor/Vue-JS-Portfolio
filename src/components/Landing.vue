@@ -174,14 +174,14 @@ body {
 }
 .my-content {
   line-height: 25px;
-  color: #696969;
+  color: rgba(0, 0, 0, 85%);
 }
 .icon {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 1rem;
-  color: #696969;
+  color: rgba(0, 0, 0, 85%);
 }
 .item-icons {
   margin: 0;

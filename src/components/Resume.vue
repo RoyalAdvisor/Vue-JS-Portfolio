@@ -192,7 +192,7 @@ export default {
   margin: 0 auto;
   width: 80%;
   padding: 0;
-  color: black;
+  color: rgba(0, 0, 0, 85%);
 }
 
 .timeline ul {
