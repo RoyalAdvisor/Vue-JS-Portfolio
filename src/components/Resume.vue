@@ -203,7 +203,6 @@ export default {
   list-style: none;
   box-sizing: border-box;
   line-height: 25px;
-  font-size: normal;
   position: relative;
   width: 50%;
   padding: 40px 70px;
@@ -318,5 +317,9 @@ export default {
     left: 50px;
     right: inherit;
   }
+  .timeline ul li .right_content p {
+  font-size: small;
+  line-height: 25px;
+}
 }
 </style>
