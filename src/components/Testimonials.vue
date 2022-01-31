@@ -227,6 +227,7 @@ body {
 }
 cite {
   color: rgba(0, 0, 0, 85%);
+  font-size: x-small;
 }
 
 @media only screen and (max-width: 1100px) {
