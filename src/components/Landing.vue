@@ -138,6 +138,7 @@ body {
   margin: 0 auto;
   border-radius: 5px;
   box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
+  z-index: 1;
 }
 .banner {
  width: 100%;
