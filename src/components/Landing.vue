@@ -133,7 +133,7 @@ body {
   position: absolute;
   width: 80%;
   background-color: #fff;
-  bottom: 150px;
+  bottom: 0;
   display: flex;
   margin: 0 auto;
   border-radius: 5px;
@@ -144,7 +144,7 @@ body {
  width: 100%;
  position: absolute;
  bottom: 0;
- background: #fff;
+ background: #000;
  height: 150px;
 } 
 .item-container {
