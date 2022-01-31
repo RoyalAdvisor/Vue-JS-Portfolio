@@ -13,7 +13,7 @@
           <div class="item-description">
             <h2 class="greeting">HELLO THERE, I AM</h2>
             <h1 class="my-name">Nadeem Johnson</h1>
-            <h2 class="my-title">Aspiring Full-Stack Developer</h2>
+            <h2 class="my-title">Novice Full-Stack Developer</h2>
             <p class="my-content">
               I enjoy building and designing visually aesthetic, simplistic
               websites with a touch of minimalism. I started web development as
