@@ -234,8 +234,7 @@ body {
     transition: 0.4s ease-in-out;
   }
   .menu {
-   padding: 0;
-   margin-left: 0.5rem;
+   margin-left: 2px;
   }
 }
 @media only screen and (max-width: 2000px) and (min-width: 771px) {
