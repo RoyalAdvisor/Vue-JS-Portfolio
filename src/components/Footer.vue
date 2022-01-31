@@ -5,8 +5,8 @@
         <div class="contact-heading">
           <h3>CONTACT ME</h3>
           <p>
-            In need of a full-stack developer for your next project or an
-            exciting and dynamic website tailored for your business needs?
+            In need of a full-stack developer for your next project or a clean
+            and dynamic website tailored for your business needs?
           </p>
           <p>Get in touch with me.</p>
         </div>
