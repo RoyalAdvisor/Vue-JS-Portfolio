@@ -12,8 +12,8 @@
               alt="Sample 1"
               class="slider-image"
             />
-            <h2>CRUD System</h2>
-            <h3>HTML / CSS / JavaScript</h3>
+            <h4>CRUD System</h4>
+            <h5>HTML / CSS / JavaScript</h5>
             <div class="tags">
               <a
                 href="https://github.com/RoyalAdvisor/CRUD-Systerm"
@@ -35,8 +35,8 @@
               alt="Sample 2"
               class="slider-image"
             />
-            <h2>Airwalkers E-Commerce</h2>
-            <h3>HTML / CSS / Bootstrap</h3>
+            <h4>Airwalkers E-Commerce</h4>
+            <h5>HTML / CSS / Bootstrap</h5>
             <div class="tags">
               <a
                 href="https://github.com/RoyalAdvisor/Bootstrap-Practice"
@@ -54,8 +54,8 @@
               alt="Sample 3"
               class="slider-image"
             />
-            <h2>Mock Portfolio</h2>
-            <h3>HTML / CSS / Bootstrap</h3>
+            <h4>Mock Portfolio</h4>
+            <h5>HTML / CSS / Bootstrap</h5>
             <div class="tags">
               <a
                 href="https://github.com/RoyalAdvisor/Updated-Portfolio"
@@ -75,8 +75,8 @@
               alt="Sample 4"
               class="slider-image"
             />
-            <h2>Simple JS Calculator</h2>
-            <h3>HTML / CSS / JavaScript</h3>
+            <h4>Simple JS Calculator</h4>
+            <h5>HTML / CSS / JavaScript</h5>
             <div class="tags">
               <a
                 href="https://github.com/RoyalAdvisor/Basic-Calculator"
@@ -96,8 +96,8 @@
               alt="Sample 5"
               class="slider-image"
             />
-            <h2>BMI JS Calculator</h2>
-            <h3>HTML / CSS / JavaScript</h3>
+            <h4>BMI JS Calculator</h4>
+            <h5>HTML / CSS / JavaScript</h5>
             <div class="tags">
               <a
                 href="https://github.com/RoyalAdvisor/BMI-Calculator"
