@@ -212,6 +212,7 @@ export default {
 .timeline ul li .right_content h2 {
   color: #f83600;
   padding: 0px 2px 18px 0px;
+  line-height: 25px;
 }
 .timeline ul li:nth-child(odd) {
   float: left;
