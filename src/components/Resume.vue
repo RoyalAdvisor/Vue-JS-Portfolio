@@ -25,7 +25,7 @@
               <h2>Rlabs Youth Cafe</h2>
               <p>
                 Started attending this "for youth" initiative by Rlabs called
-                the Youth Cafe. While I was there I attending a multitude of
+                the Youth Cafe. While I was there I attended a multitude of
                 youth centered workshops, aimed at upskilling those who have
                 just finished their schooling. Some of these workshops included
                 job-readiness and soft skills development.
