@@ -218,7 +218,6 @@ body {
     position: fixed;
     top: 0;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     z-index: 6;
   }
@@ -234,7 +233,8 @@ body {
     transition: 0.4s ease-in-out;
   }
   .menu {
-   margin-left: 2px;
+   float: left;
+   margin-left: 5px;
   }
 }
 @media only screen and (max-width: 2000px) and (min-width: 771px) {
