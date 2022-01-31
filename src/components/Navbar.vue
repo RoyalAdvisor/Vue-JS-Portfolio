@@ -218,6 +218,7 @@ body {
     position: fixed;
     top: 0;
     display: flex;
+    justify-content: flex start;
     align-items: center;
     z-index: 6;
   }
@@ -231,11 +232,7 @@ body {
     right: 0;
     height: 100%;
     transition: 0.4s ease-in-out;
-  }
-  .menu {
-   float: left;
-   margin-left: 5px;
-  }
+ } 
 }
 @media only screen and (max-width: 2000px) and (min-width: 771px) {
   .menu {
