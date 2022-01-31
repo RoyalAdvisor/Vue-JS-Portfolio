@@ -96,6 +96,7 @@
         </div>
       </div>
     </div>
+   <div class="banner"></div>
   </section>
 </template>
 
@@ -120,8 +121,8 @@ body {
 }
 
 #landing-page {
+  position: relative;
   width: 100%;
-  height: 100vh;
   background: linear-gradient(to right, #fe8c00, #f83600);
   margin: 0;
   padding: 0;
@@ -138,6 +139,13 @@ body {
   border-radius: 5px;
   box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
 }
+.banner {
+ width: 100%
+ position: absolute;
+ bottom: 0;
+ background: #fff;
+ height: 150px;
+} 
 .item-container {
   width: 100%;
   display: flex;
