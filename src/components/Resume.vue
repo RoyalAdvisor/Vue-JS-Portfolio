@@ -12,8 +12,7 @@
               <p>
                 Completed my National Senior Certificate at this institute with
                 a Bachelor's pass in English, Afrikaans, Maths Literacy, Life
-                Science, Geography and Business Studies. My average mark was
-                67,8%
+                Science, Geography and Business Studies.
               </p>
             </div>
             <div class="left_content">
