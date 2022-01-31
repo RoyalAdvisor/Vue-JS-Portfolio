@@ -133,7 +133,7 @@ body {
   position: absolute;
   width: 80%;
   background-color: #fff;
-  bottom: -150px;
+  bottom: 150px;
   display: flex;
   margin: 0 auto;
   border-radius: 5px;
