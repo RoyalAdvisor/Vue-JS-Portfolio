@@ -135,7 +135,7 @@ body {
   bottom: -150px;
   display: flex;
   margin: 0 auto;
-  border-radius: 15px;
+  border-radius: 5px;
   box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
 }
 .item-container {
@@ -151,7 +151,7 @@ body {
   padding: 50px;
 }
 .my-image {
-  border-radius: 15px;
+  border-radius: 5px;
   width: 100%;
   object-fit: cover;
 }
@@ -196,7 +196,7 @@ body {
     bottom: -150px;
     display: flex;
     margin: 0 auto;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
     padding: 25px;
   }

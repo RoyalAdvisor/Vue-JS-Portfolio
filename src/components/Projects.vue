@@ -176,13 +176,13 @@ export default {
   line-height: 25px;
   padding-bottom: 25px;
   background-color: rgba(255, 255, 255, 15%);
-  border-radius: 15px;
+  border-radius: 5px;
 }
 .slider-image {
   width: 100%;
   object-fit: cover;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .tags {
   display: flex;
