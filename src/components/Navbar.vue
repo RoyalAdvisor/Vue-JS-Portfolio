@@ -16,6 +16,7 @@
       <a href="#landing-page" class="nav-link">HOME</a>
       <a href="#about-page" class="nav-link">ABOUT</a>
       <a href="#projects-page" class="nav-link">PROJECTS</a>
+      <a href="#resume-page" class="nav-link">RESUME</a>
       <a href="#testimonials-page" class="nav-link">TESTIMONIALS</a>
       <a href="#contact-page" class="nav-link">CONTACT</a>
     </nav>
@@ -30,6 +31,7 @@
       <a href="#landing-page" class="mobile">HOME</a>
       <a href="#about-page" class="mobile">ABOUT</a>
       <a href="#projects-page" class="mobile">PROJECTS</a>
+      <a href="#resume-page" class="mobile">RESUME</a>
       <a href="#testimonials-page" class="mobile">TESTIMONIALS</a>
       <a href="#contact-page" class="mobile">CONTACT</a>
     </nav>
@@ -49,7 +51,7 @@ export default {
 }
 
 .nav-link.active {
-  color: green;
+  color: #fe8c00;
 }
 
 .nav-container {
@@ -59,7 +61,7 @@ export default {
   justify-content: flex-start;
   margin: 0;
   width: 100%;
-  background: linear-gradient(to right, #fdfc47, #24fe41);
+  background: linear-gradient(to right, #fe8c00, #f83600);
   position: fixed;
   z-index: 5;
   transition: 0.3s ease-in-out;
@@ -134,9 +136,9 @@ export default {
   padding: 20px;
 }
 
-nav a:hover {
+/* nav a:hover {
   color: #000;
-}
+} */
 
 .mobile-nav {
   position: fixed;

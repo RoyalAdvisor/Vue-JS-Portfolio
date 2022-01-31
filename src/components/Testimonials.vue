@@ -122,34 +122,38 @@ export default {
     return {
       testimonials: [
         {
-      "name": "Alex Sexwale",
-      "title": "LifeChoices Lecturer",
-      "id": 1,
-      "image": "https://i.postimg.cc/RVrbbCJf/image-5.jpg",
-      "content": "Nadeem is creative and naturally gifted in the tech space. He always goes the extra mile when it comes to producing quality work."
-    },
-    {
-      "name": "Muhammad Breda",
-      "title": "Aspiring Full-Stack Dev",
-      "id": 2,
-      "image": "https://i.postimg.cc/XvhgGxwF/image-1.jpg",
-      "content": "Nadeem is very ambitious, creative and just has that eye for good design. Overall he is a great guy! Glad to work with him."
-    },
-    {
-      "name": "Craig Braaf",
-      "title": "Aspiring Front-End Dev",
-      "id": 3,
-      "image": "https://i.postimg.cc/26sTJTym/image-3.jpg",
-      "content": "Nadeem is extremely observant and possesses a keen attention to detail. He's innovative and filled with ideas."
-    },
-    {
-      "name": "Yaaseen Davids",
-      "title": "Aspiring Full-Stack Dev",
-      "id": 4,
-      "image": "https://i.postimg.cc/2jKckXsC/image-4.jpg",
-      "content": "Nadeem is an AMAZING developer and very hardworking. He is always willing and ready to assist his peers."
-    }
-    ],
+          name: "Alex Sexwale",
+          title: "LifeChoices Lecturer",
+          id: 1,
+          image: "https://i.postimg.cc/RVrbbCJf/image-5.jpg",
+          content:
+            "Nadeem is naturally gifted in the tech space. He goes the extra mile when it comes to producing quality work.",
+        },
+        {
+          name: "Muhammad Breda",
+          title: "Aspiring Full-Stack Dev",
+          id: 2,
+          image: "https://i.postimg.cc/XvhgGxwF/image-1.jpg",
+          content:
+            "Nadeem is very ambitious, creative and just has that eye for good design. He is a great guy!",
+        },
+        {
+          name: "Craig Braaf",
+          title: "Aspiring Front-End Dev",
+          id: 3,
+          image: "https://i.postimg.cc/26sTJTym/image-3.jpg",
+          content:
+            "Nadeem is extremely observant and possesses a keen attention to detail. He's innovative and filled with ideas.",
+        },
+        {
+          name: "Yaaseen Davids",
+          title: "Aspiring Full-Stack Dev",
+          id: 4,
+          image: "https://i.postimg.cc/2jKckXsC/image-4.jpg",
+          content:
+            "Nadeem is an AMAZING developer and very hardworking. He is always willing and ready to assist his peers.",
+        },
+      ],
     };
   },
 };
@@ -158,8 +162,8 @@ export default {
 <style>
 #testimonials-page {
   width: 100%;
-  background: #fff;
-  margin: 0;
+  background: linear-gradient(to right, #fe8c00, #f83600);
+  margin: 0 auto;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -180,14 +184,17 @@ export default {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 .card {
-  width: 20%;
+  width: 24%;
   display: flex;
   flex-direction: column;
   color: #000;
   border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
 }
 .card-image {
   width: 100%;
@@ -197,7 +204,7 @@ export default {
   padding: 20px;
 }
 .card-image img {
-  width: 70%;
+  width: 80%;
   border-radius: 50%;
 }
 .card-content {
@@ -221,6 +228,8 @@ export default {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
   .card {
     width: 100%;
@@ -228,6 +237,7 @@ export default {
     flex-direction: row;
     color: #000;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
   }
   .card-image {
     width: 100%;
@@ -258,13 +268,16 @@ export default {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
   .card {
-    width: 92%;
+    width: 95%;
     display: flex;
     flex-direction: row;
     color: #000;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
   }
   .card-image {
     width: 100%;
@@ -287,12 +300,24 @@ export default {
   }
 }
 @media only screen and (max-width: 576px) {
-  .card {
+  .testimonials-container {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .card {
+    width: 90%;
     display: flex;
     flex-direction: column;
     color: #000;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
   }
   .card-image {
     width: 100%;
@@ -303,7 +328,7 @@ export default {
   }
   .card-image img {
     width: 80%;
-    border-radius: 10px;
+    border-radius: 50%;
   }
   .card-content {
     width: 100%;
@@ -314,16 +339,13 @@ export default {
     flex-direction: column;
   }
   .testimonials-heading h1 {
-  font-weight: 900;
-  font-size: 35px;
-  color: #000;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  text-align: left;
-}
+    font-weight: 900;
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+  }
   .testimonials-heading {
-  width: 100%;
-  padding: 25px;
-}
+    width: 100%;
+  }
 }
 </style>

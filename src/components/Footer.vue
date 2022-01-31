@@ -103,18 +103,17 @@ footer {
   align-items: center;
 }
 .contact-container {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  gap: 3rem;
 }
 .contact-item {
-  width: 100%;
+  width: 50%;
   color: #696969;
-  padding: 25px;
+  padding: 50px;
 }
 .contact-heading p {
   line-height: 25px;
@@ -127,9 +126,9 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 2rem;
-  width: 100%;
+  width: 50%;
   color: #696969;
-  padding: 25px;
+  padding: 50px;
 }
 .social-item h3 {
   color: #fff;
@@ -137,7 +136,7 @@ footer {
 .social-icons {
   display: flex;
   justify-content: flex-start;
-  flex-direction: row;
+  flex-direction: column;
   column-gap: 3rem;
 }
 .s-item {
@@ -147,5 +146,31 @@ footer {
 .s-item h5 {
   color: #696969;
   line-height: 25px;
+}
+@media only screen and (max-width: 770px) {
+  .contact-container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .contact-item {
+    width: 95%;
+    color: #696969;
+    padding: 0;
+  }
+  .social-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 95%;
+    color: #696969;
+    padding: 0;
+  }
 }
 </style>

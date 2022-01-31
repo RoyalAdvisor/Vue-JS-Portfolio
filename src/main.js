@@ -19,7 +19,7 @@ function scrollFunction() {
     document.querySelector(".nav-container").style.background = "black";
   } else {
     document.querySelector(".nav-container").style.background =
-      "linear-gradient(to right, #fdfc47, #24fe41)";
+      "linear-gradient(to right, #fe8c00, #f83600)";
   }
 }
 

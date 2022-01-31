@@ -15,8 +15,12 @@
             <h1 class="my-name">Nadeem Johnson</h1>
             <h2 class="my-title">Aspiring Full-Stack Developer</h2>
             <p class="my-content">
-              I enjoy building and designing visually aesthetic, simplistic websites with a touch of minimalism.
-I started web development as I believe it's one of the most powerful resources out there. If used correctly, it can captive millions. Bring innovation and knowledge to the farthest regions of the world. And allow us to connect on levels never experienced before. 
+              I enjoy building and designing visually aesthetic, simplistic
+              websites with a touch of minimalism. I started web development as
+              I believe it's one of the most powerful resources out there. If
+              used correctly, it can captive millions. Bring innovation and
+              knowledge to the farthest regions of the world. And allow us to
+              connect on levels never experienced before.
             </p>
           </div>
           <div class="item-icons">
@@ -118,7 +122,7 @@ body {
 #landing-page {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to right, #fdfc47, #24fe41);
+  background: linear-gradient(to right, #fe8c00, #f83600);
   margin: 0;
   padding: 0;
   display: flex;
@@ -127,39 +131,38 @@ body {
 .landing-container {
   position: absolute;
   width: 80%;
-  min-height: 800px;
   background-color: #fff;
   bottom: -130px;
   display: flex;
   margin: 0 auto;
   border-radius: 15px;
   box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
-  padding: 0 25px 0 25px;
 }
 .item-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
 }
 .item-left {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  padding: 50px;
 }
 .my-image {
   border-radius: 15px;
-  max-width: 600px;
-  min-width: 200px;
+  width: 100%;
+  object-fit: cover;
 }
 .item-right {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   line-height: 25px;
+  padding: 50px;
 }
 .greeting {
   font-weight: 100;
@@ -190,14 +193,12 @@ body {
     position: relative;
     width: 80%;
     height: fit-content;
-    background-color: #fff;
     bottom: -150px;
     display: flex;
     margin: 0 auto;
     border-radius: 15px;
     box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
     padding: 25px;
-    /* display: none; */
   }
   .item-container {
     width: 100%;
@@ -206,10 +207,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    row-gap: 2rem;
   }
   .item-right {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -259,20 +259,24 @@ body {
     display: flex;
     margin: 0 auto;
     box-shadow: 0px;
-    padding: 25px;
+    border-radius: 0px;
+    padding: 0;
   }
   .item-right {
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    padding: 0;
+    padding-bottom: 50px;
   }
   .item-left {
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0;
   }
   .my-image {
     border-radius: 15px;
@@ -283,6 +287,36 @@ body {
 @media only screen and (max-width: 576px) {
   .landing-container {
     border-radius: 0px;
+    width: 100%;
+    padding: 0;
+  }
+  .my-image {
+    border-radius: 5px;
+    object-fit: cover;
+    padding: 0;
+    width: 100%;
+  }
+  .item-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item-left {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px 0;
+  }
+  .item-right {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: 25px;
+    padding: 0;
+    padding-bottom: 50px;
   }
 }
 </style>
