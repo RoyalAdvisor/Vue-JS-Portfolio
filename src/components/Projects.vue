@@ -284,7 +284,7 @@ export default {
   }
   .project-heading {
     width: 100%;
-    padding: 25px;
+    padding: 0;
   }
   .splide-item {
     display: flex;
