@@ -21,9 +21,9 @@
           </li>
           <li>
             <div class="right_content">
-              <h4>Rlabs Youth Cafe</h4>
+              <h4>RLabs Youth Cafe</h4>
               <p>
-                Started attending this "for youth" initiative by Rlabs called
+                Started attending this "for youth" initiative by RLabs called
                 the Youth Cafe. While I was there I attended a multitude of
                 youth centered workshops, aimed at upskilling those who have
                 just finished their schooling. Some of these workshops included
