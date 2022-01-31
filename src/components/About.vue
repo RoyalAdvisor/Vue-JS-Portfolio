@@ -193,7 +193,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   border-radius: 20px;
-  border: 2px solid rgba(0, 0, 0, 30%);
+  border: 1px solid rgba(0, 0, 0, 10%);
 }
 .bars-inner-html {
   background: linear-gradient(to right, #fe8c00, #f83600);
