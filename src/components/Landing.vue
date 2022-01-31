@@ -140,7 +140,7 @@ body {
   box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
 }
 .banner {
- width: 100%
+ width: 100%;
  position: absolute;
  bottom: 0;
  background: #fff;
