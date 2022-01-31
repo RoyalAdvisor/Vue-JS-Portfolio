@@ -9,7 +9,7 @@
           <img :src="item.image" :alt="item.name" />
         </div>
         <div class="card-content">
-          <h2>{{ item.name }}</h2>
+          <h4>{{ item.name }}</h4>
           <p>{{ item.content }}</p>
           <div class="rating">
             <span>
