@@ -318,7 +318,7 @@ export default {
     right: inherit;
   }
   .timeline ul li .right_content p {
-  font-size: medium;
+  font-size: small;
   line-height: 25px;
 }
 }
