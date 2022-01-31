@@ -128,6 +128,9 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 5rem;
 }
 .landing-container {
   position: absolute;
@@ -199,10 +202,10 @@ body {
 }
 @media only screen and (max-width: 1100px) {
   .landing-container {
-    position: relative;
+    position: absolute;
     width: 80%;
     height: fit-content;
-    bottom: -150px;
+    bottom: 0;
     display: flex;
     margin: 0 auto;
     border-radius: 5px;
@@ -260,7 +263,8 @@ body {
     justify-content: center;
   }
   .landing-container {
-    position: relative;
+    position: absolute;
+    bottom: 0;
     width: 100%;
     height: fit-content;
     background-color: #fff;
