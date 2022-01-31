@@ -36,7 +36,7 @@
           </li>
           <li>
             <div class="right_content">
-              <h4>EOS Group</h4>
+              <h4>EOH Group</h4>
               <p>
                 I started working at this company initially as a general worker,
                 eventually working my way up to a more demanding and technical
