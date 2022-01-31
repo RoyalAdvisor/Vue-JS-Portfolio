@@ -17,7 +17,11 @@
           <p>Let's connect socially.</p>
         </div>
         <div class="social-icons">
-          <a class="s-item" href="#" target="_blank">
+          <a
+            class="s-item"
+            href="https://www.linkedin.com/in/nadeem-johnson-57b388224/"
+            target="_blank"
+          >
             <svg
               aria-hidden="true"
               focusable="false"
@@ -37,7 +41,11 @@
             </svg>
             <h5>Linkedin</h5>
           </a>
-          <a class="s-item" href="#" target="_blank">
+          <a
+            class="s-item"
+            href="https://github.com/RoyalAdvisor"
+            target="_blank"
+          >
             <svg
               aria-hidden="true"
               focusable="false"
@@ -57,7 +65,11 @@
             </svg>
             <h5>Github</h5>
           </a>
-          <a class="s-item" href="#" target="_blank">
+          <a
+            class="s-item"
+            href="https://codepen.io/royaladvisor"
+            target="_blank"
+          >
             <svg
               aria-hidden="true"
               focusable="false"
