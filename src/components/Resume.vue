@@ -202,7 +202,8 @@ export default {
 .timeline ul li {
   list-style: none;
   box-sizing: border-box;
-  line-height: normal;
+  line-height: 25px;
+  font-size: normal;
   position: relative;
   width: 50%;
   padding: 40px 70px;
