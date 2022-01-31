@@ -80,6 +80,9 @@
         </div>
       </div>
     </div>
+    <div class="copyright">
+      <h6>Copyright © 2022 Nadeem Johnson</h6>
+    </div>
   </footer>
 </template>
 
@@ -103,7 +106,7 @@ footer {
   align-items: center;
 }
 .contact-container {
-  margin-top: 5rem;
+  margin-top: 7rem;
   margin-bottom: 5rem;
   display: flex;
   flex-direction: row;
