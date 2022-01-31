@@ -210,7 +210,7 @@ body {
   border-radius: 5px;
   color: #000;
   font-weight: 600;
-  font-size: large;
+  font-size: small;
   width: 120px;
   text-align: center;
   transition: 200ms ease-in-out;
