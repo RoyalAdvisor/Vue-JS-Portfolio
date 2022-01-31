@@ -160,6 +160,12 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oxygen", sans-serif;
+}
 #testimonials-page {
   width: 100%;
   background: linear-gradient(to right, #fe8c00, #f83600);

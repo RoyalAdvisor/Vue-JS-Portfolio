@@ -118,6 +118,11 @@ export default {
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oxygen", sans-serif;
+}
 #about-page {
   display: flex;
   flex-wrap: wrap;
