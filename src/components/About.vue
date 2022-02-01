@@ -132,12 +132,11 @@ body {
 }
 .about-container {
   width: 80%;
-  padding: 0;
+  padding: 120px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5rem;
-  margin-top: 5rem;
+  margin: 0;
 }
 .about-content {
   width: 50%;
@@ -260,7 +259,7 @@ body {
     margin-bottom: 5rem;
     width: 100%;
     row-gap: 1rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
   .about-content {
     width: 80%;
@@ -313,7 +312,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
   .about-content {
     width: 95%;
