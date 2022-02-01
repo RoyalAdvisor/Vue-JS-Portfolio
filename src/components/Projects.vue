@@ -8,7 +8,7 @@
         <SplideSlide>
           <div class="splide-item">
             <img
-              src="../assets/Images/project-images/project1-min.png"
+              src="../assets/Images/project-images/project1-min.jpg"
               alt="Sample 1"
               class="slider-image"
             />
@@ -35,7 +35,7 @@
         <SplideSlide>
           <div class="splide-item">
             <img
-              src="../assets/Images/project-images/project2-min.png"
+              src="../assets/Images/project-images/project2-min.jpg"
               alt="Sample 2"
               class="slider-image"
             />
@@ -60,7 +60,7 @@
         <SplideSlide>
           <div class="splide-item">
             <img
-              src="../assets/Images/project-images/project3-min.png"
+              src="../assets/Images/project-images/project3-min.jpg"
               alt="Sample 3"
               class="slider-image"
             />
@@ -85,7 +85,7 @@
         <SplideSlide>
           <div class="splide-item">
             <img
-              src="../assets/Images/project-images/project4-min.png"
+              src="../assets/Images/project-images/project4-min.jpg"
               alt="Sample 4"
               class="slider-image"
             />
@@ -110,7 +110,7 @@
         <SplideSlide>
           <div class="splide-item">
             <img
-              src="../assets/Images/project-images/project5-min.png"
+              src="../assets/Images/project-images/project5-min.jpg"
               alt="Sample 5"
               class="slider-image"
             />
