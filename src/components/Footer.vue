@@ -134,17 +134,19 @@ footer {
   align-items: center;
 }
 .contact-container {
-  margin-top: 7rem;
-  margin-bottom: 5rem;
+  margin: 5rem 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 .contact-item {
-  width: 50%;
+  width: 80%;
   color: #696969;
-  padding: 50px;
+  padding: 0;
 }
 .contact-heading p {
   line-height: 25px;
@@ -214,9 +216,9 @@ textarea {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 2rem;
-  width: 50%;
+  width: 80%;
   color: #696969;
-  padding: 50px;
+  padding: 0;
 }
 .social-item h3 {
   color: #fff;
@@ -252,9 +254,11 @@ textarea {
     align-items: center;
   }
   .contact-container {
-    margin-top: 7rem;
-    margin-bottom: 5rem;
+    margin: 5rem 0;
+    gap: 2rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
@@ -262,7 +266,7 @@ textarea {
   .contact-item {
     width: 80%;
     color: #696969;
-    padding: 50px;
+    padding: 0;
   }
   .contact-heading p {
     line-height: 25px;
@@ -277,7 +281,7 @@ textarea {
     gap: 2rem;
     width: 80%;
     color: #696969;
-    padding: 50px;
+    padding: 0;
   }
   .social-item h3 {
     color: #fff;
@@ -305,8 +309,8 @@ textarea {
 }
 @media only screen and (max-width: 770px) {
   .contact-container {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin: 5rem 0;
+    gap: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -339,8 +343,8 @@ textarea {
 }
 @media only screen and (max-width: 576px) {
   .contact-container {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin: 5rem 0;
+    gap: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -361,6 +365,12 @@ textarea {
     width: 90%;
     color: #696969;
     padding: 0;
+  }
+  .social-icons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
   }
   #contact-form input,
   textarea {
