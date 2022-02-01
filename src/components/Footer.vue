@@ -10,6 +10,22 @@
           </p>
           <p>Get in touch with me.</p>
         </div>
+        <div class="form">
+          <form
+            id="contact-form"
+            action="https://formspree.io/f/xyyoewog"
+            method="POST"
+            target="_blank"
+          >
+            <label>Name</label>
+            <input type="text" placeholder="Name" />
+            <label>E-mail</label>
+            <input type="email" placeholder="Email" name="_replyto" />
+            <label>Message</label>
+            <textarea name="textarea" placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
       </div>
       <div class="social-item">
         <div class="social-heading">
@@ -136,6 +152,63 @@ footer {
 .contact-item h3 {
   color: #fff;
 }
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+label {
+  color: #fff;
+  font-weight: 600;
+}
+button {
+  padding: 8px;
+  border: none;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.6);
+  transition: 200ms ease-in-out;
+}
+button:focus {
+  transform: scale(0.9);
+}
+button:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+#contact-form {
+  width: 100%;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+#contact-form input,
+textarea {
+  width: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+#contact-form input {
+  height: 40px;
+  padding: 10px;
+}
+#contact-form textarea {
+  height: 80px;
+  padding: 10px;
+}
+#contact-form input::placeholder {
+  color: #696969;
+  font-weight: 600;
+}
+#contact-form textarea::placeholder {
+  color: #696969;
+  font-weight: 600;
+}
 .social-item {
   display: flex;
   flex-direction: column;
@@ -255,6 +328,14 @@ footer {
     color: #696969;
     padding: 0;
   }
+  #contact-form input,
+  textarea {
+    width: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+  }
 }
 @media only screen and (max-width: 576px) {
   .contact-container {
@@ -280,6 +361,14 @@ footer {
     width: 90%;
     color: #696969;
     padding: 0;
+  }
+  #contact-form input,
+  textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+    font-weight: 600;
   }
 }
 </style>
