@@ -355,7 +355,6 @@ body {
 @media only screen and (max-width: 576px) {
   .about-container {
     margin: 5rem 0;
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
