@@ -263,6 +263,9 @@ body {
     width: 100%;
     row-gap: 1rem;
   }
+  .about-container h1 {
+    margin-bottom: 5rem;
+  }
   .about-content {
     width: 80%;
     padding: 0;
@@ -299,6 +302,9 @@ body {
   }
 }
 @media only screen and (max-width: 770px) {
+  .about-container h1 {
+    margin-bottom: 5rem;
+  }
   #about-page {
     display: flex;
     flex-wrap: wrap;
@@ -353,6 +359,9 @@ body {
   }
 }
 @media only screen and (max-width: 576px) {
+  .about-container h1 {
+    margin-bottom: 5rem;
+  }
   .about-container {
     margin: 5rem 0;
     display: flex;
