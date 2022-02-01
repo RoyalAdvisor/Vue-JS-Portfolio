@@ -162,7 +162,6 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background: linear-gradient(to right, #fe8c00, #f83600); */
   box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
 }
 .resume-container {
@@ -318,8 +317,8 @@ export default {
     right: inherit;
   }
   .timeline ul li .right_content p {
-  font-size: small;
-  line-height: 25px;
-}
+    font-size: medium;
+    line-height: 25px;
+  }
 }
 </style>
