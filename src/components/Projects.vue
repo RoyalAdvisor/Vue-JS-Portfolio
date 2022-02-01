@@ -7,11 +7,13 @@
       <Splide :options="{ rewind: true }" class="splide-container">
         <SplideSlide>
           <div class="splide-item">
-            <img
-              src="../assets/Images/project-images/project1-min.jpg"
-              alt="Sample 1"
-              class="slider-image"
-            />
+            <div class="splide-">
+              <img
+                src="../assets/Images/project-images/project1-min.jpg"
+                alt="Sample 1"
+                class="slider-image"
+              />
+            </div>
             <div class="splide-box">
               <div class="splide-content">
                 <h4>CRUD System</h4>
@@ -34,11 +36,13 @@
         </SplideSlide>
         <SplideSlide>
           <div class="splide-item">
-            <img
-              src="../assets/Images/project-images/project2-min.jpg"
-              alt="Sample 2"
-              class="slider-image"
-            />
+            <div class="splide-">
+              <img
+                src="../assets/Images/project-images/project2-min.jpg"
+                alt="Sample 2"
+                class="slider-image"
+              />
+            </div>
             <div class="splide-box">
               <div class="splide-content">
                 <h4>Airwalkers E-Commerce</h4>
@@ -59,11 +63,13 @@
         </SplideSlide>
         <SplideSlide>
           <div class="splide-item">
-            <img
-              src="../assets/Images/project-images/project3-min.jpg"
-              alt="Sample 3"
-              class="slider-image"
-            />
+            <div class="splide-image">
+              <img
+                src="../assets/Images/project-images/project3-min.jpg"
+                alt="Sample 3"
+                class="slider-image"
+              />
+            </div>
             <div class="splide-box">
               <div class="splide-content">
                 <h4>Mock Portfolio</h4>
@@ -84,11 +90,13 @@
         </SplideSlide>
         <SplideSlide>
           <div class="splide-item">
-            <img
-              src="../assets/Images/project-images/project4-min.jpg"
-              alt="Sample 4"
-              class="slider-image"
-            />
+            <div class="splide-image">
+              <img
+                src="../assets/Images/project-images/project4-min.jpg"
+                alt="Sample 4"
+                class="slider-image"
+              />
+            </div>
             <div class="splide-box">
               <div class="splide-content">
                 <h4>Simple JS Calculator</h4>
@@ -109,11 +117,13 @@
         </SplideSlide>
         <SplideSlide>
           <div class="splide-item">
-            <img
-              src="../assets/Images/project-images/project5-min.jpg"
-              alt="Sample 5"
-              class="slider-image"
-            />
+            <div class="splide-image">
+              <img
+                src="../assets/Images/project-images/project5-min.jpg"
+                alt="Sample 5"
+                class="slider-image"
+              />
+            </div>
             <div class="splide-box">
               <div class="splide-content">
                 <h4>BMI JS Calculator</h4>
@@ -192,25 +202,26 @@ body {
   margin-top: 5rem;
   margin-bottom: 5rem;
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 15%);
+  padding: 20px;
 }
 
 /* SLIDER */
 .splide-item {
+  padding: 10px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   color: #000;
   line-height: 25px;
-  padding-bottom: 25px;
-  background: rgba(255, 255, 255, 0.2);
+  margin: 20px 0;
   border-radius: 5px;
 }
 .slider-image {
   width: 100%;
-  object-fit: cover;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 5px;
 }
 .splide-content {
   width: 100%;
@@ -277,32 +288,55 @@ h5 {
     width: 80%;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    border-radius: 10px;
+    background: none;
+  }
+  .project-heading h1 {
+    font-weight: 900;
+    font-size: 35px;
+    color: #000;
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .project-heading {
+    width: 100%;
+    padding: 0;
   }
   .splide-item {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     align-items: center;
     flex-direction: column;
-    margin: 0 auto;
-    line-height: 25px;
-    padding-bottom: 25px;
+    width: 100%;
+    line-height: 10px;
     border-radius: 5px;
+  }
+  .splide-content h4,
+  h5 {
+    margin: 0;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+  }
+  .splide-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0;
   }
   #splide01 {
     width: 100%;
   }
-  .slider-image {
-    width: 100%;
-    object-fit: cover;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
   .splide__arrow--next {
     right: 0.2em;
+    display: none;
   }
   .splide__arrow--prev {
     left: 0.2em;
+    display: none;
   }
   .tags a:hover {
     background: #fe8c00;
@@ -333,7 +367,28 @@ h5 {
     width: 95%;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    border-radius: 10px;
+    background: none;
+  }
+  .project-heading h1 {
+    font-weight: 900;
+    font-size: 35px;
+    color: #000;
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .project-heading {
+    width: 100%;
+    padding: 0;
+  }
+  .splide-item {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    line-height: 10px;
+    border-radius: 5px;
   }
   .splide__arrow--next {
     right: 0.2em;
@@ -349,7 +404,7 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     margin-top: 5rem;
     margin-bottom: 5rem;
     background: none;
@@ -368,12 +423,12 @@ h5 {
   .splide-item {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     align-items: center;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     line-height: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
   }
   .splide__arrow--next {
     right: 0.2em;

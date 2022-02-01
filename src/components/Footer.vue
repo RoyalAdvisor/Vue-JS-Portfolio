@@ -151,16 +151,84 @@ footer {
 .social-icons {
   display: flex;
   justify-content: flex-start;
-  flex-direction: column;
+  flex-direction: row;
   column-gap: 3rem;
+  flex-wrap: wrap;
 }
 .s-item {
   text-decoration: none;
   color: #696969;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 .s-item h5 {
   color: #696969;
   line-height: 25px;
+  padding: 0;
+}
+@media only screen and (max-width: 1100px) {
+  footer {
+    display: flex;
+    width: 100%;
+    background: #000;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-container {
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .contact-item {
+    width: 80%;
+    color: #696969;
+    padding: 50px;
+  }
+  .contact-heading p {
+    line-height: 25px;
+  }
+  .contact-item h3 {
+    color: #fff;
+  }
+  .social-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 80%;
+    color: #696969;
+    padding: 50px;
+  }
+  .social-item h3 {
+    color: #fff;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 3rem;
+    flex-wrap: wrap;
+  }
+  .s-item {
+    text-decoration: none;
+    color: #696969;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .s-item h5 {
+    color: #696969;
+    line-height: 25px;
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 770px) {
   .contact-container {
@@ -188,7 +256,7 @@ footer {
     padding: 0;
   }
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 576px) {
   .contact-container {
     margin-top: 5rem;
     margin-bottom: 5rem;
