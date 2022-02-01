@@ -310,7 +310,7 @@ body {
 @media only screen and (max-width: 576px) {
   .landing-container {
     margin: 5rem 0;
-    width: 92%;
+    width: 90%;
     background-color: #fff;
     display: flex;
     padding: 0;
