@@ -315,7 +315,7 @@ body {
 }
 @media only screen and (max-width: 576px) {
   #landing-page {
-    height: 160vh;
+    height: 175vh;
   }
   .landing-container {
     position: absolute;
