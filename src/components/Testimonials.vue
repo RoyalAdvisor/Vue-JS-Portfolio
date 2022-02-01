@@ -338,7 +338,7 @@ cite {
     padding: 25px;
   }
   .card-image img {
-    width: 80%;
+    width: 90%;
     border-radius: 50%;
   }
   .card-content {
