@@ -190,7 +190,7 @@ label {
 }
 #contact-form input,
 textarea {
-  width: 50%;
+  width: 30%;
   background: rgba(255, 255, 255, 0.2);
   border: none;
   color: #fff;
