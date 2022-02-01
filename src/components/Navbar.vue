@@ -67,7 +67,7 @@ body {
   justify-content: flex-start;
   margin: 0;
   width: 100%;
-  background: linear-gradient(to right, #fe8c00, #f83600);
+  background: transparent;
   position: fixed;
   z-index: 5;
   transition: 0.3s ease-in-out;

@@ -16,11 +16,11 @@
             <h2 class="my-title">Novice Full-Stack Developer</h2>
             <p class="my-content">
               I enjoy building and designing visually aesthetic, simplistic
-              websites with a touch of minimalism.
-              <!-- I believe it's one of the most powerful resources out there. If
-              used correctly, it can captive millions. Bring innovation and
-              knowledge to the farthest regions of the world. And allow us to
-              connect on levels never experienced before. -->
+              websites with a touch of minimalism. I'm very passionate about web
+              development and I believe it's one of the most powerful resources
+              out there. If used correctly, it can captive millions. Bring
+              innovation and knowledge to the farthest regions of the world. And
+              allow us to connect on levels never experienced before.
             </p>
           </div>
           <div class="item-icons">
@@ -59,7 +59,7 @@
                 <h4>+27 63 324 2071</h4>
               </div>
             </div>
-            <div class="i-containter">
+            <div class="i-container">
               <div class="icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -124,21 +124,19 @@ body {
 }
 
 #landing-page {
-  position: relative;
-  height: 100vh;
   width: 100%;
   background: linear-gradient(to right, #fe8c00, #f83600);
-  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 0;
-  display: block;
+  display: flex;
 }
 .landing-container {
-  position: relative;
+  margin: 10rem auto;
   width: 80%;
-  margin: 0 auto;
   background-color: #fff;
-  min-height: 700px;
-  bottom: -200px;
   display: flex;
   padding: 0;
   border-radius: 5px;
@@ -197,11 +195,8 @@ body {
 }
 @media only screen and (max-width: 1100px) {
   .landing-container {
-    position: relative;
     width: 80%;
-    margin: 0 auto;
     background-color: #fff;
-    min-height: 700px;
     display: flex;
     padding: 0;
     border-radius: 5px;
@@ -219,24 +214,28 @@ body {
   .item-right {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    flex-direction: row;
     padding: 20px;
   }
   .item-description {
-    width: 55%;
+    width: 100%;
   }
   .item-icons {
-    width: 40%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .i-container {
+    width: 50%;
+    padding: 0;
   }
   .my-image {
     border-radius: 5px;
-    width: 50%;
+    width: 100%;
     object-fit: cover;
   }
   .my-content {
@@ -262,12 +261,9 @@ body {
 }
 @media only screen and (max-width: 770px) {
   .landing-container {
-    position: relative;
+    margin: 5rem 0;
     width: 95%;
-    margin: 0 auto;
-    bottom: -100px;
     background-color: #fff;
-    min-height: 700px;
     display: flex;
     padding: 0;
     border-radius: 5px;
@@ -276,7 +272,8 @@ body {
   }
   .my-image {
     border-radius: 5px;
-    width: 50%;
+    width: 100%;
+    padding: 0;
     object-fit: cover;
   }
   .item-description {
@@ -288,19 +285,23 @@ body {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding-bottom: 10px;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .i-container {
+    width: 50%;
   }
   .item-left {
     width: 95%;
     display: flex;
+    padding: 20px 0;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
   }
   .item-icons {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .icon {
     display: flex;
@@ -308,12 +309,9 @@ body {
 }
 @media only screen and (max-width: 576px) {
   .landing-container {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    bottom: -50px;
+    margin: 5rem 0;
+    width: 90%;
     background-color: #fff;
-    min-height: 700px;
     display: flex;
     padding: 0;
     border-radius: 5px;
@@ -336,10 +334,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 30px 0;
+    padding: 20px 0;
   }
   .item-right {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -347,11 +345,13 @@ body {
     line-height: 25px;
     padding-bottom: 20px;
   }
+  .i-container {
+    width: 100%;
+  }
   .item-icons {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
   }
 }

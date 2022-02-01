@@ -131,8 +131,9 @@ body {
   justify-content: center;
 }
 .about-container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   width: 80%;
-  padding: 120px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,6 +147,7 @@ body {
   font-weight: 900;
   font-size: 35px;
   text-align: center;
+  margin-top: 0;
   margin-bottom: 2rem;
 }
 .about-content p {
@@ -256,10 +258,10 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
     margin-bottom: 5rem;
     width: 100%;
     row-gap: 1rem;
-    margin-top: 3rem;
   }
   .about-content {
     width: 80%;
@@ -312,7 +314,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 3rem;
+    margin: 5rem 0;
   }
   .about-content {
     width: 95%;
@@ -352,14 +354,14 @@ body {
 }
 @media only screen and (max-width: 576px) {
   .about-container {
-    margin-top: 5rem;
+    margin: 5rem 0;
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin-bottom: 5rem;
   }
   .about-content {
     width: 90%;
