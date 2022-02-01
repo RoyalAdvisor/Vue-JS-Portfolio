@@ -23,7 +23,7 @@
             <input type="email" placeholder="Email" name="_replyto" />
             <label>Message</label>
             <textarea name="textarea" placeholder="Message"></textarea>
-            <button type="submit">Send Message</button>
+            <button type="submit" class="btn">Send Message</button>
           </form>
         </div>
       </div>
@@ -165,17 +165,17 @@ label {
   color: #fff;
   font-weight: 600;
 }
-button {
+.btn {
   padding: 8px;
   border: none;
   font-weight: 600;
   background: rgba(255, 255, 255, 0.6);
   transition: 200ms ease-in-out;
 }
-button:focus {
+.btn:focus {
   transform: scale(0.9);
 }
-button:hover {
+.btn:hover {
   background: rgba(255, 255, 255, 0.9);
 }
 #contact-form {
