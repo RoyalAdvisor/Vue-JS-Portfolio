@@ -98,7 +98,7 @@
             <div class="right_content">
               <h4>My journey into web development starts...</h4>
               <p>
-                I've always been interested in tech. Growing up, I was the
+                I've always been interested in tech. Growing up, I was
                 always the person people would come to if they had an issue with
                 their devices. Some suggested that I pursue it further but I
                 never took it seriously. That is until an opportunity at
