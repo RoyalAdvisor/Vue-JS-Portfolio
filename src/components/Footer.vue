@@ -123,6 +123,7 @@ export default {
 <style>
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 footer {
   display: flex;
