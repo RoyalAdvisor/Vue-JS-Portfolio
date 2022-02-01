@@ -352,7 +352,7 @@ body {
 }
 @media only screen and (max-width: 576px) {
   .about-container {
-    margin-top: 3rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
