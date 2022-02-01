@@ -93,6 +93,7 @@ body {
   border: none;
 
   z-index: 99;
+  margin-left: 0.5rem;
 }
 
 .menu .bar,
@@ -141,10 +142,6 @@ body {
   transition: 200ms ease-in-out;
   padding: 20px;
 }
-
-/* nav a:hover {
-  color: #000;
-} */
 
 .mobile-nav {
   position: fixed;
@@ -232,7 +229,7 @@ body {
     right: 0;
     height: 100%;
     transition: 0.4s ease-in-out;
- } 
+  }
 }
 @media only screen and (max-width: 2000px) and (min-width: 771px) {
   .menu {

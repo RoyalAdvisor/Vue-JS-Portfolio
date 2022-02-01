@@ -132,11 +132,12 @@ body {
 }
 .about-container {
   width: 80%;
-  margin-top: 10rem;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 .about-content {
   width: 50%;
@@ -250,7 +251,7 @@ body {
     flex-direction: column;
   }
   .about-container {
-    margin-top: 45rem;
+    padding: 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -259,10 +260,10 @@ body {
     margin-bottom: 5rem;
     width: 100%;
     row-gap: 1rem;
+    margin-top: 5rem;
   }
   .about-content {
     width: 80%;
-    margin-top: 8rem;
     padding: 0;
   }
   .about-progress {
@@ -305,13 +306,14 @@ body {
     margin: 0;
   }
   .about-container {
-    margin-top: 42rem;
+    padding: 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 5rem;
   }
   .about-content {
     width: 95%;
@@ -351,17 +353,17 @@ body {
 }
 @media only screen and (max-width: 576px) {
   .about-container {
-    margin-top: 30rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 0;
     margin-bottom: 5rem;
   }
   .about-content {
     width: 90%;
-    margin-top: 10rem;
   }
   .about-progress {
     width: 90%;

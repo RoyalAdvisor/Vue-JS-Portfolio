@@ -96,7 +96,7 @@
         </div>
       </div>
     </div>
-   <div class="banner"></div>
+    <div class="banner"></div>
   </section>
 </template>
 
@@ -123,6 +123,7 @@ body {
 #landing-page {
   position: relative;
   width: 100%;
+  height: 115vh;
   background: linear-gradient(to right, #fe8c00, #f83600);
   margin: 0;
   padding: 0;
@@ -138,18 +139,18 @@ body {
   background-color: #fff;
   bottom: 0;
   display: flex;
-  margin: 0 auto;
+  padding: 0;
   border-radius: 5px;
   box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
   z-index: 1;
 }
 .banner {
- width: 100%;
- position: absolute;
- bottom: 0;
- background: #000;
- height: 150px;
-} 
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  height: 120px;
+}
 .item-container {
   width: 100%;
   display: flex;
@@ -201,16 +202,26 @@ body {
   flex-direction: column;
 }
 @media only screen and (max-width: 1100px) {
+  #landing-page {
+    height: 200vh;
+  }
   .landing-container {
     position: absolute;
     width: 80%;
-    height: fit-content;
+    background-color: #fff;
     bottom: 0;
+    padding: 0;
     display: flex;
-    margin: 0 auto;
     border-radius: 5px;
     box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
-    padding: 25px;
+    z-index: 1;
+  }
+  .banner {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    height: 120px;
   }
   .item-container {
     width: 100%;
@@ -260,19 +271,25 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    height: 190vh;
   }
   .landing-container {
     position: absolute;
-    bottom: 0;
     width: 100%;
-    height: fit-content;
     background-color: #fff;
-    top: 60px;
-    display: flex;
-    margin: 0 auto;
-    box-shadow: 0px;
-    border-radius: 0px;
+    bottom: 0;
     padding: 0;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
+    z-index: 1;
+  }
+  .banner {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    height: 120px;
   }
   .item-right {
     width: 95%;
@@ -297,10 +314,26 @@ body {
   }
 }
 @media only screen and (max-width: 576px) {
+  #landing-page {
+    height: 160vh;
+  }
   .landing-container {
-    border-radius: 0px;
+    position: absolute;
     width: 100%;
+    background-color: #fff;
+    bottom: 0;
+    display: flex;
     padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
+    z-index: 1;
+  }
+  .banner {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    height: 120px;
   }
   .my-image {
     border-radius: 5px;
