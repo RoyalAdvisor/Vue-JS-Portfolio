@@ -12,19 +12,23 @@
               alt="Sample 1"
               class="slider-image"
             />
-            <h4>CRUD System</h4>
-            <h5>HTML / CSS / JavaScript</h5>
-            <div class="tags">
-              <a
-                href="https://github.com/RoyalAdvisor/CRUD-Systerm"
-                target="_blank"
-                >Source</a
-              >
-              <a
-                href="https://crud-system-nadeem-johnson.netlify.app/"
-                target="_blank"
-                >Live</a
-              >
+            <div class="splide-box">
+              <div class="splide-content">
+                <h4>CRUD System</h4>
+                <h5>HTML / CSS / JavaScript</h5>
+              </div>
+              <div class="tags">
+                <a
+                  href="https://github.com/RoyalAdvisor/CRUD-Systerm"
+                  target="_blank"
+                  >Source</a
+                >
+                <a
+                  href="https://crud-system-nadeem-johnson.netlify.app/"
+                  target="_blank"
+                  >Live</a
+                >
+              </div>
             </div>
           </div>
         </SplideSlide>
@@ -35,15 +39,21 @@
               alt="Sample 2"
               class="slider-image"
             />
-            <h4>Airwalkers E-Commerce</h4>
-            <h5>HTML / CSS / Bootstrap</h5>
-            <div class="tags">
-              <a
-                href="https://github.com/RoyalAdvisor/Bootstrap-Practice"
-                target="_blank"
-                >Source</a
-              >
-              <a href="https://airwalkers.netlify.app/" target="_blank">Live</a>
+            <div class="splide-box">
+              <div class="splide-content">
+                <h4>Airwalkers E-Commerce</h4>
+                <h5>HTML / CSS / Bootstrap</h5>
+              </div>
+              <div class="tags">
+                <a
+                  href="https://github.com/RoyalAdvisor/Bootstrap-Practice"
+                  target="_blank"
+                  >Source</a
+                >
+                <a href="https://airwalkers.netlify.app/" target="_blank"
+                  >Live</a
+                >
+              </div>
             </div>
           </div>
         </SplideSlide>
@@ -54,17 +64,21 @@
               alt="Sample 3"
               class="slider-image"
             />
-            <h4>Mock Portfolio</h4>
-            <h5>HTML / CSS / Bootstrap</h5>
-            <div class="tags">
-              <a
-                href="https://github.com/RoyalAdvisor/Updated-Portfolio"
-                target="_blank"
-                >Source</a
-              >
-              <a href="https://nadeem-resume.netlify.app/" target="_blank"
-                >Live</a
-              >
+            <div class="splide-box">
+              <div class="splide-content">
+                <h4>Mock Portfolio</h4>
+                <h5>HTML / CSS / Bootstrap</h5>
+              </div>
+              <div class="tags">
+                <a
+                  href="https://github.com/RoyalAdvisor/Updated-Portfolio"
+                  target="_blank"
+                  >Source</a
+                >
+                <a href="https://nadeem-resume.netlify.app/" target="_blank"
+                  >Live</a
+                >
+              </div>
             </div>
           </div>
         </SplideSlide>
@@ -75,17 +89,21 @@
               alt="Sample 4"
               class="slider-image"
             />
-            <h4>Simple JS Calculator</h4>
-            <h5>HTML / CSS / JavaScript</h5>
-            <div class="tags">
-              <a
-                href="https://github.com/RoyalAdvisor/Basic-Calculator"
-                target="_blank"
-                >Source</a
-              >
-              <a href="https://calculator-nj.netlify.app/" target="_blank"
-                >Live</a
-              >
+            <div class="splide-box">
+              <div class="splide-content">
+                <h4>Simple JS Calculator</h4>
+                <h5>HTML / CSS / JavaScript</h5>
+              </div>
+              <div class="tags">
+                <a
+                  href="https://github.com/RoyalAdvisor/Basic-Calculator"
+                  target="_blank"
+                  >Source</a
+                >
+                <a href="https://calculator-nj.netlify.app/" target="_blank"
+                  >Live</a
+                >
+              </div>
             </div>
           </div>
         </SplideSlide>
@@ -96,19 +114,23 @@
               alt="Sample 5"
               class="slider-image"
             />
-            <h4>BMI JS Calculator</h4>
-            <h5>HTML / CSS / JavaScript</h5>
-            <div class="tags">
-              <a
-                href="https://github.com/RoyalAdvisor/BMI-Calculator"
-                target="_blank"
-                >Source</a
-              >
-              <a
-                href="https://xenodochial-lewin-a285b8.netlify.app/"
-                target="_blank"
-                >Live</a
-              >
+            <div class="splide-box">
+              <div class="splide-content">
+                <h4>BMI JS Calculator</h4>
+                <h5>HTML / CSS / JavaScript</h5>
+              </div>
+              <div class="tags">
+                <a
+                  href="https://github.com/RoyalAdvisor/BMI-Calculator"
+                  target="_blank"
+                  >Source</a
+                >
+                <a
+                  href="https://xenodochial-lewin-a285b8.netlify.app/"
+                  target="_blank"
+                  >Live</a
+                >
+              </div>
             </div>
           </div>
         </SplideSlide>
@@ -181,7 +203,7 @@ body {
   color: #000;
   line-height: 25px;
   padding-bottom: 25px;
-  background-color: rgba(255, 255, 255, 15%);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
 }
 .slider-image {
@@ -190,30 +212,62 @@ body {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+.splide-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.splide-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 20px 0;
+}
+.splide-content h4,
+h5 {
+  margin: 0;
+  padding: 20px;
+  font-size: medium;
+}
+.splide-content h4 {
+  margin: 0;
+  padding: 20px;
+  font-size: larger;
+}
 .tags {
   display: flex;
-  justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
-  width: 50%;
-  margin-bottom: 2rem;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0;
 }
-.tags a:focus {
-  background-color: rgba(255, 255, 255, 50%);
+.tags a:hover {
+  background: #fe8c00;
+  border: 2px solid #f83600;
+  color: #f83600;
 }
 .tags a {
   text-decoration: none;
   background: inherit;
-  padding: 15px;
-  background-color: transparent;
-  border: 2px solid rgba(0, 0, 0, 100%);
+  padding: 10px;
+  background-color: #f83600;
   border-radius: 5px;
-  color: #000;
+  border: 2px solid #fe8c00;
+  color: #fe8c00;
   font-weight: 600;
-  font-size: small;
-  width: 120px;
+  font-size: medium;
   text-align: center;
+  width: 120px;
   transition: 200ms ease-in-out;
+  margin: 0;
 }
 @media only screen and (max-width: 1100px) {
   .project-container {
@@ -230,10 +284,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #000;
+    margin: 0 auto;
     line-height: 25px;
     padding-bottom: 25px;
-    background-color: rgba(255, 255, 255, 40%);
     border-radius: 5px;
   }
   #splide01 {
@@ -250,6 +303,26 @@ body {
   }
   .splide__arrow--prev {
     left: 0.2em;
+  }
+  .tags a:hover {
+    background: #fe8c00;
+    border: 2px solid #f83600;
+    color: #f83600;
+  }
+  .tags a {
+    text-decoration: none;
+    background: inherit;
+    padding: 10px;
+    background-color: #f83600;
+    border-radius: 5px;
+    border: 2px solid #fe8c00;
+    color: #fe8c00;
+    font-weight: 600;
+    font-size: medium;
+    text-align: center;
+    width: 120px;
+    transition: 200ms ease-in-out;
+    margin: 0;
   }
 }
 @media only screen and (max-width: 770px) {
@@ -297,9 +370,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #000;
     width: 90%;
-    margin: 0 auto;
     line-height: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
@@ -312,13 +383,25 @@ body {
     left: 0.2em;
     display: none;
   }
-  .tags {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 2rem;
+  .tags a:hover {
+    background: #fe8c00;
+    border: 2px solid #f83600;
+    color: #f83600;
+  }
+  .tags a {
+    text-decoration: none;
+    background: inherit;
+    padding: 10px;
+    background-color: #f83600;
+    border-radius: 5px;
+    border: 2px solid #fe8c00;
+    color: #fe8c00;
+    font-weight: 600;
+    font-size: medium;
+    text-align: center;
+    width: 120px;
+    transition: 200ms ease-in-out;
+    margin: 0;
   }
 }
 </style>
