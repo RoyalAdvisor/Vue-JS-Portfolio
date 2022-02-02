@@ -319,7 +319,7 @@ cite {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 5rem;
   }
   .card {
@@ -354,6 +354,7 @@ cite {
     font-size: 35px;
     color: #000;
     text-align: center;
+    margin-bottom: 0;
   }
   .testimonials-heading {
     width: 100%;

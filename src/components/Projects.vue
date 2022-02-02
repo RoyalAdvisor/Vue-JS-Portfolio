@@ -405,7 +405,7 @@ h5 {
     align-items: center;
     justify-content: center;
     width: 90%;
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 5rem;
     background: none;
   }
@@ -415,6 +415,7 @@ h5 {
     color: #000;
     margin-top: 5rem;
     text-align: center;
+    margin-bottom: 0;
   }
   .project-heading {
     width: 100%;

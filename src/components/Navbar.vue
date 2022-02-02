@@ -64,7 +64,7 @@ body {
   padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 0;
   width: 100%;
   background: transparent;
@@ -74,7 +74,8 @@ body {
 }
 .nav-container svg {
   color: #fff;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
+  z-index: 0;
 }
 
 .menu {
@@ -130,13 +131,13 @@ body {
 .nav {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
+  width: 79%;
 }
 
 .nav a {
   text-decoration: none;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 900;
   color: #fff;
   transition: 200ms ease-in-out;
@@ -203,8 +204,9 @@ body {
 
   .nav-container svg {
     color: #fff;
-    width: 100px;
-    margin-left: 1rem;
+    width: 20%;
+    margin: 0 1rem;
+    z-index: 0;
   }
 
   .menu-container {

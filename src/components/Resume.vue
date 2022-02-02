@@ -98,15 +98,15 @@
             <div class="right_content">
               <h4>My journey into web development starts...</h4>
               <p>
-                I've always been interested in tech. Growing up, I was
-                always the person people would come to if they had an issue with
-                their devices. Some suggested that I pursue it further but I
-                never took it seriously. That is until an opportunity at
-                LifeChoices presented itself at the most crucial moment. I
-                decided to grab the opportunity with both hands and see where it
-                would take me and now I'm enjoying every moment of it. I
-                absolutely fell inlove with web development and I see my future
-                within this field.
+                I've always been interested in tech. Growing up, I was always
+                the person people would come to if they had an issue with their
+                devices. Some suggested that I pursue it further but I never
+                took it seriously. That is until an opportunity at LifeChoices
+                presented itself at the most crucial moment. I decided to grab
+                the opportunity with both hands and see where it would take me
+                and now I'm enjoying every moment of it. I absolutely fell
+                inlove with web development and I see my future within this
+                field.
               </p>
             </div>
             <div class="left_content">
@@ -319,6 +319,25 @@ export default {
   .timeline ul li .right_content p {
     font-size: medium;
     line-height: 25px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .resume-heading h1 {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+  .resume-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    border-radius: 15px;
+    background: #fff;
   }
 }
 </style>

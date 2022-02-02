@@ -360,7 +360,7 @@ body {
 }
 @media only screen and (max-width: 576px) {
   .about-container h1 {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
   }
   .about-container {
     margin: 5rem 0;
