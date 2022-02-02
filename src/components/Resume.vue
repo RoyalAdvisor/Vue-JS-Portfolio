@@ -8,44 +8,51 @@
         <ul>
           <li>
             <div class="right_content">
-              <h4>Groote Schuur High School</h4>
+              <h4>My journey into web development starts...</h4>
               <p>
-                Completed my National Senior Certificate at this institute with
-                a Bachelor's pass in English, Afrikaans, Maths Literacy, Life
-                Science, Geography and Business Studies.
+                I've always been interested in tech. Growing up, I was always
+                the person people would come to if they had an issue with their
+                devices. Some suggested that I pursue it further but I never
+                took it seriously. That is until an opportunity at LifeChoices
+                presented itself at the most crucial moment. I decided to grab
+                the opportunity with both hands and see where it would take me
+                and now I'm enjoying every moment of it. I absolutely fell
+                inlove with web development and I see my future within this
+                field.
               </p>
             </div>
             <div class="left_content">
-              <h3>Jan 2015</h3>
+              <h3>Sept 2021</h3>
             </div>
           </li>
           <li>
             <div class="right_content">
-              <h4>RLabs Youth Cafe</h4>
+              <h4>Motion Control Cards</h4>
               <p>
-                Started attending this "for youth" initiative by RLabs called
-                the Youth Cafe. While I was there I attended a multitude of
-                youth centered workshops, aimed at upskilling those who have
-                just finished their schooling. Some of these workshops included
-                job-readiness and soft skills development.
+                After I recovered, I began focusing on an old passion of mine.
+                Designing playing cards. I started developing my own custom
+                playing cards to be used for the art of cardistry. My business
+                plan was solid but due to the entire world shutting down because
+                of the pandemic, I had to give up on that dream.
               </p>
             </div>
             <div class="left_content">
-              <h3>Feb 2015</h3>
+              <h3>Jun 2019</h3>
             </div>
           </li>
           <li>
             <div class="right_content">
-              <h4>EOH Group</h4>
+              <h4>Lost myself...</h4>
               <p>
-                I started working at this company initially as a general worker,
-                eventually working my way up to a more demanding and technical
-                position. My duties included the installation of networking
-                cable and optic fibre, network points and server cabinets.
+                Due to the high intensity of my previous job, I experienced a
+                tremendous amount of stress which eventually become hazardous to
+                my health. I was unable to continue working as my health and
+                mental state was under alot of strain. That's when I decided to
+                take a break and recalibrate myself.
               </p>
             </div>
             <div class="left_content">
-              <h3>Aug 2016</h3>
+              <h3>Aug 2018</h3>
             </div>
           </li>
           <li>
@@ -66,51 +73,44 @@
           </li>
           <li>
             <div class="right_content">
-              <h4>Lost myself...</h4>
+              <h4>EOH Group</h4>
               <p>
-                Due to the high intensity of my previous job, I experienced a
-                tremendous amount of stress which eventually become hazardous to
-                my health. I was unable to continue working as my health and
-                mental state was under alot of strain. That's when I decided to
-                take a break and recalibrate myself.
+                I started working at this company initially as a general worker,
+                eventually working my way up to a more demanding and technical
+                position. My duties included the installation of networking
+                cable and optic fibre, network points and server cabinets.
               </p>
             </div>
             <div class="left_content">
-              <h3>Aug 2018</h3>
+              <h3>Aug 2016</h3>
             </div>
           </li>
           <li>
             <div class="right_content">
-              <h4>Motion Control Cards</h4>
+              <h4>RLabs Youth Cafe</h4>
               <p>
-                After I recovered, I began focusing on an old passion of mine.
-                Designing playing cards. I started developing my own custom
-                playing cards to be used for the art of cardistry. My business
-                plan was solid but due to the entire world shutting down because
-                of the pandemic, I had to give up on that dream.
+                Started attending this "for youth" initiative by RLabs called
+                the Youth Cafe. While I was there I attended a multitude of
+                youth centered workshops, aimed at upskilling those who have
+                just finished their schooling. Some of these workshops included
+                job-readiness and soft skills development.
               </p>
             </div>
             <div class="left_content">
-              <h3>Jun 2019</h3>
+              <h3>Feb 2015</h3>
             </div>
           </li>
           <li>
             <div class="right_content">
-              <h4>My journey into web development starts...</h4>
+              <h4>Groote Schuur High School</h4>
               <p>
-                I've always been interested in tech. Growing up, I was always
-                the person people would come to if they had an issue with their
-                devices. Some suggested that I pursue it further but I never
-                took it seriously. That is until an opportunity at LifeChoices
-                presented itself at the most crucial moment. I decided to grab
-                the opportunity with both hands and see where it would take me
-                and now I'm enjoying every moment of it. I absolutely fell
-                inlove with web development and I see my future within this
-                field.
+                Completed my National Senior Certificate at this institute with
+                a Bachelor's pass in English, Afrikaans, Maths Literacy, Life
+                Science, Geography and Business Studies.
               </p>
             </div>
             <div class="left_content">
-              <h3>Sept 2021</h3>
+              <h3>Jan 2015</h3>
             </div>
           </li>
           <li>
