@@ -354,5 +354,10 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .my-name {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+  }
 }
 </style>
