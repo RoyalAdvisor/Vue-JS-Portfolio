@@ -18,11 +18,11 @@
             target="_blank"
           >
             <label>Name</label>
-            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Name" required />
             <label>E-mail</label>
-            <input type="email" placeholder="Email" name="_replyto" />
+            <input type="email" placeholder="Email" name="_replyto" required />
             <label>Message</label>
-            <textarea name="textarea" placeholder="Message"></textarea>
+            <textarea name="textarea" placeholder="Message" required></textarea>
             <button type="submit" class="btn">Send Message</button>
           </form>
         </div>
