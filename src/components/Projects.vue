@@ -144,6 +144,35 @@
             </div>
           </div>
         </SplideSlide>
+        <SplideSlide>
+          <div class="splide-item">
+            <div class="splide-image">
+              <img
+                src="../assets/Images/project-images/project6-min.jpg"
+                alt="Sample 5"
+                class="slider-image"
+              />
+            </div>
+            <div class="splide-box">
+              <div class="splide-content">
+                <h4>Responsive Navbar</h4>
+                <h5>HTML / CSS / JavaScript</h5>
+              </div>
+              <div class="tags">
+                <a
+                  href="https://codepen.io/royaladvisor/pen/BawoKYj"
+                  target="_blank"
+                  >Source</a
+                >
+                <a
+                  href="https://codepen.io/royaladvisor/pen/BawoKYj"
+                  target="_blank"
+                  >Live</a
+                >
+              </div>
+            </div>
+          </div>
+        </SplideSlide>
       </Splide>
     </div>
   </section>
