@@ -359,5 +359,9 @@ body {
     font-size: 40px;
     line-height: 50px;
   }
+  .greeting {
+    font-weight: 100;
+    font-size: 20px;
+  }
 }
 </style>
