@@ -190,7 +190,7 @@ label {
 }
 #contact-form input,
 textarea {
-  width: 40%;
+  width: 30%;
   background: rgba(255, 255, 255, 0.2);
   border: none;
   color: #fff;
@@ -245,6 +245,14 @@ textarea {
   padding: 0;
 }
 @media only screen and (max-width: 1100px) {
+  #contact-form input,
+  textarea {
+    width: 40%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+  }
   footer {
     display: flex;
     width: 100%;
