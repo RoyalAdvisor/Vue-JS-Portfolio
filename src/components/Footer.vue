@@ -136,10 +136,26 @@ export default {
   },
   methods: {
     handleSubmit() {
-      console.log("Form has been submitted");
-      console.log(this.name);
-      console.log(this.email);
-      console.log(this.message);
+      console.log(
+        "Form has been submitted",
+        this.name,
+        this.email,
+        this.message
+      );
+      fetch("https://nadeem-api.herokuapp.com/contact", {
+        method: "POST",
+        body: JSON.stringify({
+          name: this.name,
+          email: this.email,
+          message: this.message,
+        }),
+        headers: {
+          "Content-type": "application/json; charset=UTF-8",
+        },
+      })
+        .then((response) => response.json())
+        .then((json) => alert(json.msg))
+        .catch((err) => alert(err.msg));
     },
   },
 };
