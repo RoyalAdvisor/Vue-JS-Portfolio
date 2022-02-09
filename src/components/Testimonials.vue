@@ -318,7 +318,7 @@ cite {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 0.9rem;
     margin-top: 3rem;
     margin-bottom: 5rem;
   }

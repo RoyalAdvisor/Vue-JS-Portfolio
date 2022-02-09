@@ -13,16 +13,26 @@
         <div class="form">
           <form
             id="contact-form"
-            action="https://formspree.io/f/xyyoewog"
-            method="POST"
             target="_blank"
+            @submit.prevent="handleSubmit"
           >
             <label>Name</label>
-            <input type="text" placeholder="Name" required />
+            <input type="text" placeholder="Name" required v-model="name" />
             <label>E-mail</label>
-            <input type="email" placeholder="Email" name="_replyto" required />
+            <input
+              type="email"
+              placeholder="Email"
+              name="_replyto"
+              required
+              v-model="email"
+            />
             <label>Message</label>
-            <textarea name="textarea" placeholder="Message" required></textarea>
+            <textarea
+              name="textarea"
+              placeholder="Message"
+              required
+              v-model="message"
+            ></textarea>
             <button type="submit" class="btn">Send Message</button>
           </form>
         </div>
@@ -117,6 +127,21 @@
 <script>
 export default {
   name: "Footer",
+  data() {
+    return {
+      name: "",
+      email: "",
+      message: "",
+    };
+  },
+  methods: {
+    handleSubmit() {
+      console.log("Form has been submitted");
+      console.log(this.name);
+      console.log(this.email);
+      console.log(this.message);
+    },
+  },
 };
 </script>
 
