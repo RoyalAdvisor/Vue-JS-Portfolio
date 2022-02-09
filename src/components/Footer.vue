@@ -155,7 +155,7 @@ export default {
       })
         .then((response) => response.json())
         .then((json) => alert(json.msg))
-        .catch((err) => alert(err.msg));
+        .catch((e) => alert(e.msg));
     },
   },
 };
