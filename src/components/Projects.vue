@@ -183,11 +183,6 @@ import { Splide, SplideSlide } from "@splidejs/vue-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 export default {
   name: "Projects",
-  data() {
-    return {
-      projects: [],
-    };
-  },
   components: {
     Splide,
     SplideSlide,

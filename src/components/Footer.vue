@@ -171,6 +171,7 @@ label {
   font-weight: 600;
   background: rgba(255, 255, 255, 0.6);
   transition: 200ms ease-in-out;
+  border-radius: 5px;
 }
 .btn:focus {
   transform: scale(0.9);
@@ -194,6 +195,7 @@ textarea {
   background: rgba(255, 255, 255, 0.2);
   border: none;
   color: #fff;
+  border-radius: 5px;
   font-weight: 600;
 }
 #contact-form input {
