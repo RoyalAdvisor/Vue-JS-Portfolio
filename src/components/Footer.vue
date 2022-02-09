@@ -142,7 +142,7 @@ export default {
         this.email,
         this.message
       );
-      fetch("https://nadeem-api.herokuapp.com/contact", {
+      fetch("http://localhost:5000/contact", {
         method: "POST",
         body: JSON.stringify({
           name: this.name,
@@ -154,8 +154,8 @@ export default {
         },
       })
         .then((response) => response.json())
-        .then((json) => alert(json.msg))
-        .catch((e) => alert(e.msg));
+        .then((json) => alert((json.msg = "Form has been submitted")))
+        .catch((err) => alert((err.msg = "Form has failed")));
     },
   },
 };
