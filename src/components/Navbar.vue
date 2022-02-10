@@ -144,6 +144,10 @@ body {
   padding: 20px;
 }
 
+.mobile:hover {
+  color: #ff3cac;
+}
+
 .mobile-nav {
   position: fixed;
   display: flex;
@@ -179,9 +183,6 @@ body {
   color: #fff;
   transition: 200ms ease-in-out;
   padding: 10px;
-}
-.m-nav a:hover {
-  color: #ff3cac;
 }
 .mobile-nav.is-active {
   position: fixed;
