@@ -142,7 +142,7 @@ export default {
         this.email,
         this.message
       );
-      fetch("http://localhost:5000/contact", {
+      fetch("https://nadeem-api.herokuapp.com/contact", {
         method: "POST",
         body: JSON.stringify({
           name: this.name,
