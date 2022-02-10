@@ -249,7 +249,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
   }
   .icon {
     display: flex;
