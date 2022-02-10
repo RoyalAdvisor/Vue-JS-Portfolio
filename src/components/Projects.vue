@@ -225,12 +225,11 @@ body {
   width: 80%;
   margin-top: 5rem;
   margin-bottom: 5rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 15%);
 }
 
 /* SLIDER */
 .splide-item {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 15%);
   padding: 10px;
   width: 100%;
   display: flex;
@@ -286,8 +285,9 @@ h5 {
   margin: 0;
 }
 .tags a:hover {
-  background: rgba(0, 0, 0, 30%);
+  background: rgba(0, 0, 0, 10%);
   border: 2px solid #ff3cac;
+  box-shadow: rgba(0, 0, 0, 30%);
   color: #ff3cac;
 }
 .tags a {

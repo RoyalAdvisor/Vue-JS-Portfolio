@@ -199,7 +199,7 @@ body {
 }
 .bars-inner-html {
   background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
-  width: 85%;
+  width: 90%;
   height: 15px;
   border-radius: 20px;
   text-align: center;
@@ -207,7 +207,7 @@ body {
 }
 .bars-inner-css {
   background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
-  width: 80%;
+  width: 90%;
   height: 15px;
   border-radius: 20px;
   text-align: center;

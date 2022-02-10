@@ -16,7 +16,8 @@ window.onscroll = function () {
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.querySelector(".nav-container").style.background = "black";
+    document.querySelector(".nav-container").style.background =
+      "rgba(0,0,0,0.95)";
   } else {
     document.querySelector(".nav-container").style.background = "transparent";
   }

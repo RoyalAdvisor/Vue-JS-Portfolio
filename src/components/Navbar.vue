@@ -153,7 +153,7 @@ body {
   top: 0;
   right: -100%;
 
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.97);
   width: 50%;
   height: 100%;
   z-index: 99;
@@ -168,6 +168,7 @@ body {
   flex-direction: column;
   row-gap: 2rem;
   text-align: center;
+  transition: 0.2s ease-in-out;
 }
 
 .m-nav a {
@@ -179,7 +180,9 @@ body {
   transition: 200ms ease-in-out;
   padding: 10px;
 }
-
+.m-nav a:hover {
+  color: #ff3cac;
+}
 .mobile-nav.is-active {
   position: fixed;
   display: flex;
@@ -211,7 +214,7 @@ body {
   }
 
   .menu-container {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.97);
     width: 100%;
     height: 60px;
     position: fixed;
