@@ -116,45 +116,19 @@
 </template>
 
 <script>
+const baseURL = "https://nadeem-api.herokuapp.com/";
 export default {
   name: "Testimonials",
   data() {
     return {
-      testimonials: [
-        {
-          name: "Alex Sexwale",
-          title: "LifeChoices Lecturer",
-          id: 1,
-          image: "https://i.postimg.cc/RVrbbCJf/image-5.jpg",
-          content:
-            "Nadeem is naturally gifted in the tech space. He goes the extra mile when it comes to producing quality work.",
-        },
-        {
-          name: "Muhammad Breda",
-          title: "Aspiring Full-Stack Dev",
-          id: 2,
-          image: "https://i.postimg.cc/XvhgGxwF/image-1.jpg",
-          content:
-            "Nadeem is very ambitious, creative and just has that eye for good design. He is a great guy!",
-        },
-        {
-          name: "Craig Braaf",
-          title: "Aspiring Front-End Dev",
-          id: 3,
-          image: "https://i.postimg.cc/26sTJTym/image-3.jpg",
-          content:
-            "Nadeem is extremely observant and possesses a keen attention to detail. He's innovative and filled with ideas.",
-        },
-        {
-          name: "Yaaseen Davids",
-          title: "Aspiring Full-Stack Dev",
-          id: 4,
-          image: "https://i.postimg.cc/2jKckXsC/image-4.jpg",
-          content:
-            "Nadeem is an AMAZING developer and very hardworking. He is always willing and ready to assist his peers.",
-        },
-      ],
+      testimonials: [],
     };
+  },
+  mounted() {
+    fetch(`${baseURL}testimonials`)
+      .then((res) => res.json())
+      .then((data) => (this.testimonials = data))
+      .catch((err) => console.error(err.message));
   },
 };
 </script>
