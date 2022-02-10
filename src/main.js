@@ -18,8 +18,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.querySelector(".nav-container").style.background = "black";
   } else {
-    document.querySelector(".nav-container").style.background =
-      "linear-gradient(to right, #fe8c00, #f83600)";
+    document.querySelector(".nav-container").style.background = "transparent";
   }
 }
 

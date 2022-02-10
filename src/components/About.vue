@@ -152,7 +152,7 @@ body {
 }
 .about-content p {
   line-height: 25px;
-  color: rgba(0, 0, 0, 85%);
+  color: rgba(0, 0, 0, 90%);
 }
 .skill-icons {
   margin-top: 3rem;
@@ -198,7 +198,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 10%);
 }
 .bars-inner-html {
-  background: linear-gradient(to right, #fe8c00, #f83600);
+  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
   width: 85%;
   height: 15px;
   border-radius: 20px;
@@ -206,7 +206,7 @@ body {
   color: #fff;
 }
 .bars-inner-css {
-  background: linear-gradient(to right, #fe8c00, #f83600);
+  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
   width: 80%;
   height: 15px;
   border-radius: 20px;
@@ -214,7 +214,7 @@ body {
   color: #fff;
 }
 .bars-inner-js {
-  background: linear-gradient(to right, #fe8c00, #f83600);
+  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
   width: 50%;
   height: 15px;
   border-radius: 20px;
@@ -222,7 +222,7 @@ body {
   color: #fff;
 }
 .bars-inner-bootstrap {
-  background: linear-gradient(to right, #fe8c00, #f83600);
+  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
   width: 75%;
   height: 15px;
   border-radius: 20px;
@@ -230,7 +230,7 @@ body {
   color: #fff;
 }
 .bars-inner-vue {
-  background: linear-gradient(to right, #fe8c00, #f83600);
+  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
   width: 65%;
   height: 15px;
   border-radius: 20px;
@@ -238,7 +238,7 @@ body {
   color: #fff;
 }
 .bars-inner-node {
-  background: linear-gradient(to right, #fe8c00, #f83600);
+  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
   width: 65%;
   height: 15px;
   border-radius: 20px;

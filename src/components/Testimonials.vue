@@ -142,7 +142,7 @@ body {
 }
 #testimonials-page {
   width: 100%;
-  background: linear-gradient(to right, #fe8c00, #f83600);
+  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -153,7 +153,7 @@ body {
 .testimonials-heading h1 {
   font-weight: 900;
   font-size: 35px;
-  color: #000;
+  color: #fff;
   margin-top: 5rem;
   text-align: center;
 }
@@ -194,7 +194,7 @@ body {
 }
 .card-content p {
   line-height: 25px;
-  color: rgba(0, 0, 0, 85%);
+  color: rgba(0, 0, 0, 90%);
 }
 .rating {
   margin-bottom: 5px;
@@ -326,7 +326,6 @@ cite {
   .testimonials-heading h1 {
     font-weight: 900;
     font-size: 35px;
-    color: #000;
     text-align: center;
     margin-bottom: 0;
   }

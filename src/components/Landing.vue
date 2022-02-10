@@ -125,7 +125,9 @@ body {
 
 #landing-page {
   width: 100%;
-  background: linear-gradient(to right, #fe8c00, #f83600);
+  /* background: linear-gradient(to right, #fe8c00, #f83600); */
+  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,14 +181,14 @@ body {
 }
 .my-content {
   line-height: 25px;
-  color: rgba(0, 0, 0, 85%);
+  color: rgba(0, 0, 0, 90%);
 }
 .icon {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 1rem;
-  color: rgba(0, 0, 0, 85%);
+  color: rgba(0, 0, 0, 90%);
 }
 .item-icons {
   margin: 0;
@@ -249,7 +251,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
   }
   .icon {
     display: flex;

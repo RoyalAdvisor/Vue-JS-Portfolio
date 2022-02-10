@@ -281,11 +281,20 @@ textarea {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  transition: 200ms ease-in-out;
+}
+.s-item:hover {
+  color: #fff;
 }
 .s-item h5 {
   color: #696969;
   line-height: 25px;
+  font-size: 1rem;
   padding: 0;
+  transition: 200ms ease-in-out;
+}
+.s-item h5:hover {
+  color: #fff;
 }
 @media only screen and (max-width: 1100px) {
   #contact-form input,

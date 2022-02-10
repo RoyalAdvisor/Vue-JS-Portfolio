@@ -162,7 +162,6 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
 }
 .resume-container {
   display: flex;
@@ -208,9 +207,12 @@ export default {
 }
 
 .timeline ul li .right_content h4 {
-  color: #f83600;
+  color: #784ba0;
   padding: 0px 2px 18px 0px;
   line-height: 25px;
+}
+.right_content p {
+  color: rgba(0, 0, 0, 90%);
 }
 .timeline ul li:nth-child(odd) {
   float: left;
@@ -235,7 +237,7 @@ export default {
   position: absolute;
   width: 10px;
   height: 10px;
-  background: #f83600;
+  background: #784ba0;
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 100%);
   right: -6px;
@@ -248,7 +250,7 @@ export default {
   position: absolute;
   width: 10px;
   height: 10px;
-  background: #fe8c00;
+  background: #2b86c5;
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 100%);
   left: -4px;

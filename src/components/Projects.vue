@@ -204,7 +204,7 @@ body {
 #projects-page {
   width: 100%;
   margin: 0;
-  background: linear-gradient(to right, #fe8c00, #f83600);
+  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -214,7 +214,7 @@ body {
 .project-heading h1 {
   font-weight: 900;
   font-size: 35px;
-  color: #000;
+  color: #fff;
   margin-top: 5rem;
   text-align: center;
 }
@@ -267,12 +267,13 @@ body {
 h5 {
   margin: 0;
   padding: 20px;
-  font-size: medium;
+  font-size: 1.5rem;
+  color: #fff;
 }
 .splide-content h4 {
   margin: 0;
   padding: 20px;
-  font-size: larger;
+  font-size: 2rem;
 }
 .tags {
   display: flex;
@@ -285,18 +286,18 @@ h5 {
   margin: 0;
 }
 .tags a:hover {
-  background: #fe8c00;
-  border: 2px solid #f83600;
-  color: #f83600;
+  background: rgba(0, 0, 0, 30%);
+  border: 2px solid #ff3cac;
+  color: #ff3cac;
 }
 .tags a {
   text-decoration: none;
   background: inherit;
   padding: 10px;
-  background-color: #f83600;
+  background-color: rgba(0, 0, 0, 15%);
   border-radius: 5px;
-  border: 2px solid #fe8c00;
-  color: #fe8c00;
+  border: 2px solid #784ba0;
+  color: #fff;
   font-weight: 600;
   font-size: medium;
   text-align: center;
@@ -317,7 +318,6 @@ h5 {
   .project-heading h1 {
     font-weight: 900;
     font-size: 35px;
-    color: #000;
     margin-top: 5rem;
     text-align: center;
   }
@@ -339,8 +339,11 @@ h5 {
   h5 {
     margin: 0;
     padding: 20px;
-    font-size: medium;
+    font-size: 1.3rem;
     text-align: center;
+  }
+  .splide-content h4 {
+    font-size: 1.8rem;
   }
   .splide-box {
     width: 100%;
@@ -363,18 +366,18 @@ h5 {
     display: none;
   }
   .tags a:hover {
-    background: #fe8c00;
-    border: 2px solid #f83600;
-    color: #f83600;
+    background: rgba(0, 0, 0, 30%);
+    border: 2px solid #ff3cac;
+    color: #ff3cac;
   }
   .tags a {
     text-decoration: none;
     background: inherit;
     padding: 10px;
-    background-color: #f83600;
+    background-color: rgba(0, 0, 0, 15%);
     border-radius: 5px;
-    border: 2px solid #fe8c00;
-    color: #fe8c00;
+    border: 2px solid #784ba0;
+    color: #fff;
     font-weight: 600;
     font-size: medium;
     text-align: center;
@@ -396,7 +399,6 @@ h5 {
   .project-heading h1 {
     font-weight: 900;
     font-size: 35px;
-    color: #000;
     margin-top: 5rem;
     text-align: center;
   }
@@ -436,7 +438,6 @@ h5 {
   .project-heading h1 {
     font-weight: 900;
     font-size: 35px;
-    color: #000;
     margin-top: 5rem;
     text-align: center;
     margin-bottom: 0;
@@ -463,19 +464,30 @@ h5 {
     left: 0.2em;
     display: none;
   }
+  .splide-content h4,
+  h5 {
+    margin: 0;
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .splide-content h4 {
+    font-size: 1.2rem;
+  }
+
   .tags a:hover {
-    background: #fe8c00;
-    border: 2px solid #f83600;
-    color: #f83600;
+    background: rgba(0, 0, 0, 30%);
+    border: 2px solid #ff3cac;
+    color: #ff3cac;
   }
   .tags a {
     text-decoration: none;
     background: inherit;
     padding: 10px;
-    background-color: #f83600;
+    background-color: rgba(0, 0, 0, 15%);
     border-radius: 5px;
-    border: 2px solid #fe8c00;
-    color: #fe8c00;
+    border: 2px solid #784ba0;
+    color: #fff;
     font-weight: 600;
     font-size: medium;
     text-align: center;

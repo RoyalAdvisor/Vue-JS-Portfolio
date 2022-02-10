@@ -57,7 +57,7 @@ body {
 }
 
 .nav-link.active {
-  color: #fe8c00;
+  color: #ff3cac;
 }
 
 .nav-container {
@@ -167,6 +167,7 @@ body {
   align-items: center;
   flex-direction: column;
   row-gap: 2rem;
+  text-align: center;
 }
 
 .m-nav a {
@@ -219,6 +220,17 @@ body {
     justify-content: flex start;
     align-items: center;
     z-index: 6;
+  }
+  .mobile-nav.is-active {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    height: 100%;
+    transition: 0.4s ease-in-out;
   }
   .mobile-nav.is-active {
     position: fixed;
