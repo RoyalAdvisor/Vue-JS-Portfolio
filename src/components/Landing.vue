@@ -18,9 +18,7 @@
               I enjoy building and designing visually aesthetic, simplistic
               websites with a touch of minimalism. I'm very passionate about web
               development and I believe it's one of the most powerful resources
-              <!-- out there. If used correctly, it can captive millions. Bring
-              innovation and knowledge to the farthest regions of the world. And
-              allow us to connect on levels never experienced before. -->
+              out there.
             </p>
           </div>
           <div class="item-icons">
