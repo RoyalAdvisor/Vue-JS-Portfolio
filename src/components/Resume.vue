@@ -142,7 +142,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .resume-heading h1 {
   font-weight: 900;
   font-size: 35px;

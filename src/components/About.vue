@@ -113,7 +113,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 /* ABOUT-SECTION */
 #about-page {
   display: flex;

@@ -4,171 +4,28 @@
       <h1>MY PROJECTS</h1>
     </div>
     <div class="project-container">
-      <Splide :options="{ rewind: true }" class="splide-container">
-        <SplideSlide>
+      <Splide
+        v-if="projects"
+        :options="{ rewind: true }"
+        class="splide-container"
+      >
+        <SplideSlide v-for="project of projects" :key="project.id">
           <div class="splide-item">
             <div class="splide-">
               <img
-                src="../assets/Images/project-images/project1-min.jpg"
-                alt="Sample 1"
+                :src="project.image"
+                :alt="project.title"
                 class="slider-image"
               />
             </div>
             <div class="splide-box">
               <div class="splide-content">
-                <h4>CRUD System</h4>
-                <h5>HTML / CSS / JavaScript</h5>
+                <h4>{{ project.title }}</h4>
+                <h5>{{ project.stack }}</h5>
               </div>
               <div class="tags">
-                <a
-                  href="https://github.com/RoyalAdvisor/CRUD-Systerm"
-                  target="_blank"
-                  >Source</a
-                >
-                <a
-                  href="https://crud-system-nadeem-johnson.netlify.app/"
-                  target="_blank"
-                  >Live</a
-                >
-              </div>
-            </div>
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div class="splide-item">
-            <div class="splide-">
-              <img
-                src="../assets/Images/project-images/project2-min.jpg"
-                alt="Sample 2"
-                class="slider-image"
-              />
-            </div>
-            <div class="splide-box">
-              <div class="splide-content">
-                <h4>Airwalkers E-Commerce</h4>
-                <h5>HTML / CSS / Bootstrap</h5>
-              </div>
-              <div class="tags">
-                <a
-                  href="https://github.com/RoyalAdvisor/Bootstrap-Practice"
-                  target="_blank"
-                  >Source</a
-                >
-                <a href="https://airwalkers.netlify.app/" target="_blank"
-                  >Live</a
-                >
-              </div>
-            </div>
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div class="splide-item">
-            <div class="splide-image">
-              <img
-                src="../assets/Images/project-images/project3-min.jpg"
-                alt="Sample 3"
-                class="slider-image"
-              />
-            </div>
-            <div class="splide-box">
-              <div class="splide-content">
-                <h4>Mock Portfolio</h4>
-                <h5>HTML / CSS / Bootstrap</h5>
-              </div>
-              <div class="tags">
-                <a
-                  href="https://github.com/RoyalAdvisor/Updated-Portfolio"
-                  target="_blank"
-                  >Source</a
-                >
-                <a href="https://nadeem-resume.netlify.app/" target="_blank"
-                  >Live</a
-                >
-              </div>
-            </div>
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div class="splide-item">
-            <div class="splide-image">
-              <img
-                src="../assets/Images/project-images/project4-min.jpg"
-                alt="Sample 4"
-                class="slider-image"
-              />
-            </div>
-            <div class="splide-box">
-              <div class="splide-content">
-                <h4>Simple JS Calculator</h4>
-                <h5>HTML / CSS / JavaScript</h5>
-              </div>
-              <div class="tags">
-                <a
-                  href="https://github.com/RoyalAdvisor/Basic-Calculator"
-                  target="_blank"
-                  >Source</a
-                >
-                <a href="https://calculator-nj.netlify.app/" target="_blank"
-                  >Live</a
-                >
-              </div>
-            </div>
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div class="splide-item">
-            <div class="splide-image">
-              <img
-                src="../assets/Images/project-images/project5-min.jpg"
-                alt="Sample 5"
-                class="slider-image"
-              />
-            </div>
-            <div class="splide-box">
-              <div class="splide-content">
-                <h4>BMI JS Calculator</h4>
-                <h5>HTML / CSS / JavaScript</h5>
-              </div>
-              <div class="tags">
-                <a
-                  href="https://github.com/RoyalAdvisor/BMI-Calculator"
-                  target="_blank"
-                  >Source</a
-                >
-                <a
-                  href="https://xenodochial-lewin-a285b8.netlify.app/"
-                  target="_blank"
-                  >Live</a
-                >
-              </div>
-            </div>
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div class="splide-item">
-            <div class="splide-image">
-              <img
-                src="../assets/Images/project-images/project6-min.jpg"
-                alt="Sample 5"
-                class="slider-image"
-              />
-            </div>
-            <div class="splide-box">
-              <div class="splide-content">
-                <h4>Responsive Navbar</h4>
-                <h5>HTML / CSS / JavaScript</h5>
-              </div>
-              <div class="tags">
-                <a
-                  href="https://codepen.io/royaladvisor/pen/BawoKYj"
-                  target="_blank"
-                  >Source</a
-                >
-                <a
-                  href="https://codepen.io/royaladvisor/pen/BawoKYj"
-                  target="_blank"
-                  >Live</a
-                >
+                <a :href="project.source" target="_blank">Source</a>
+                <a :href="project.live" target="_blank">Live</a>
               </div>
             </div>
           </div>
@@ -181,26 +38,31 @@
 <script>
 import { Splide, SplideSlide } from "@splidejs/vue-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
+const baseURL = "https://nadeem-api.herokuapp.com/";
 export default {
   name: "Projects",
   components: {
     Splide,
     SplideSlide,
   },
+  data() {
+    return {
+      projects: [],
+    };
+  },
+  mounted() {
+    fetch(`${baseURL}projects`)
+      .then((res) => res.json())
+      .then((data) => {
+        this.projects = data;
+      })
+      .catch((err) => console.error(err.message));
+  },
 };
 </script>
 
-<style scoped>
+<style>
 /* PROJECTS-SECTION */
-* {
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Oxygen", sans-serif;
-}
 #projects-page {
   width: 100%;
   margin: 0;
@@ -443,11 +305,6 @@ h5 {
     margin-top: 5rem;
     margin-bottom: 2rem;
     text-align: center;
-    margin-bottom: 0;
-  }
-  .project-heading {
-    width: 100%;
-    padding: 0;
   }
   .splide-item {
     display: flex;
