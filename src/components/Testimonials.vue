@@ -133,7 +133,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 body {
   margin: 0;
   padding: 0;
@@ -155,6 +155,7 @@ body {
   font-size: 35px;
   color: #fff;
   margin-top: 5rem;
+  margin-bottom: 5rem;
   text-align: center;
 }
 .testimonials-container {
@@ -164,7 +165,7 @@ body {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 5rem;
+  margin-top: 0;
   margin-bottom: 5rem;
 }
 .card {
@@ -213,8 +214,16 @@ cite {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 2rem;
-    margin-top: 5rem;
+    margin-top: 0;
     margin-bottom: 5rem;
+  }
+  .testimonials-heading h1 {
+    font-weight: 900;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
   }
   .card {
     width: 100%;
@@ -253,8 +262,16 @@ cite {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 2rem;
-    margin-top: 5rem;
+    margin-top: 0;
     margin-bottom: 5rem;
+  }
+  .testimonials-heading h1 {
+    font-weight: 900;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
   }
   .card {
     width: 95%;
@@ -293,8 +310,16 @@ cite {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 0.9rem;
-    margin-top: 3rem;
+    margin-top: 0;
     margin-bottom: 5rem;
+  }
+  .testimonials-heading h1 {
+    font-weight: 900;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
   }
   .card {
     width: 90%;
@@ -322,12 +347,6 @@ cite {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-  }
-  .testimonials-heading h1 {
-    font-weight: 900;
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 0;
   }
   .testimonials-heading {
     width: 100%;

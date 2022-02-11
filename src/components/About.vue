@@ -113,16 +113,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 /* ABOUT-SECTION */
-* {
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Oxygen", sans-serif;
-}
 #about-page {
   display: flex;
   flex-wrap: wrap;
@@ -264,7 +256,7 @@ body {
     row-gap: 1rem;
   }
   .about-container h1 {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
   }
   .about-content {
     width: 80%;
@@ -303,7 +295,7 @@ body {
 }
 @media only screen and (max-width: 770px) {
   .about-container h1 {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
   }
   #about-page {
     display: flex;

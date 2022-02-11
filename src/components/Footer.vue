@@ -161,7 +161,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -171,6 +171,7 @@ footer {
   width: 100%;
   background: #000;
   flex-wrap: wrap;
+  flex-direction: column;
   color: #fff;
   justify-content: center;
   align-items: center;
@@ -178,15 +179,15 @@ footer {
 .contact-container {
   margin: 5rem 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
+  width: 80%;
+  column-gap: 5rem;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .contact-item {
-  width: 80%;
+  width: 40%;
   color: #696969;
   padding: 0;
 }
@@ -232,7 +233,7 @@ label {
 }
 #contact-form input,
 textarea {
-  width: 30%;
+  width: 60%;
   background: rgba(255, 255, 255, 0.2);
   border: none;
   color: #fff;
@@ -259,8 +260,8 @@ textarea {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 2rem;
-  width: 80%;
+  row-gap: 2rem;
+  width: 40%;
   color: #696969;
   padding: 0;
 }
@@ -269,9 +270,10 @@ textarea {
 }
 .social-icons {
   display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  column-gap: 3rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 0.5rem;
   flex-wrap: wrap;
 }
 .s-item {

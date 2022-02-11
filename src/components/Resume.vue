@@ -142,7 +142,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .resume-heading h1 {
   font-weight: 900;
   font-size: 35px;
@@ -203,7 +203,7 @@ export default {
   line-height: 25px;
   position: relative;
   width: 50%;
-  padding: 40px 70px;
+  padding: 20px 40px;
 }
 
 .timeline ul li .right_content h4 {
@@ -287,6 +287,14 @@ export default {
     width: 100%;
     padding: 0;
   }
+  .resume-container {
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+  }
+  .resume-heading h1 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -322,20 +330,27 @@ export default {
     font-size: medium;
     line-height: 25px;
   }
+  .resume-container {
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+  }
+  .resume-heading h1 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
 }
 @media only screen and (max-width: 576px) {
   .resume-heading h1 {
     font-weight: 900;
     font-size: 35px;
     text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 0;
+    margin-bottom: 2rem;
   }
   .resume-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 5rem;
     width: 100%;
     border-radius: 15px;

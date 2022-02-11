@@ -190,7 +190,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 /* PROJECTS-SECTION */
 * {
   box-sizing: border-box;
@@ -216,6 +216,7 @@ body {
   font-size: 35px;
   color: #fff;
   margin-top: 5rem;
+  margin-bottom: 0;
   text-align: center;
 }
 .project-container {
@@ -311,7 +312,6 @@ h5 {
     align-items: center;
     justify-content: center;
     width: 80%;
-    margin-top: 5rem;
     margin-bottom: 5rem;
     background: none;
   }
@@ -319,6 +319,7 @@ h5 {
     font-weight: 900;
     font-size: 35px;
     margin-top: 5rem;
+    margin-bottom: 2rem;
     text-align: center;
   }
   .project-heading {
@@ -392,13 +393,14 @@ h5 {
     align-items: center;
     justify-content: center;
     width: 95%;
-    margin-top: 5rem;
+    margin-top: 0;
     margin-bottom: 5rem;
     background: none;
   }
   .project-heading h1 {
     font-weight: 900;
     font-size: 35px;
+    margin-bottom: 2rem;
     margin-top: 5rem;
     text-align: center;
   }
@@ -431,7 +433,7 @@ h5 {
     align-items: center;
     justify-content: center;
     width: 90%;
-    margin-top: 3rem;
+    margin-top: 0;
     margin-bottom: 5rem;
     background: none;
   }
@@ -439,6 +441,7 @@ h5 {
     font-weight: 900;
     font-size: 35px;
     margin-top: 5rem;
+    margin-bottom: 2rem;
     text-align: center;
     margin-bottom: 0;
   }

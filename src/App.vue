@@ -31,4 +31,14 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Questrial", sans-serif;
+}
+</style>

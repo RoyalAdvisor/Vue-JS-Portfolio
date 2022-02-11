@@ -18,9 +18,9 @@
               I enjoy building and designing visually aesthetic, simplistic
               websites with a touch of minimalism. I'm very passionate about web
               development and I believe it's one of the most powerful resources
-              out there. If used correctly, it can captive millions. Bring
+              <!-- out there. If used correctly, it can captive millions. Bring
               innovation and knowledge to the farthest regions of the world. And
-              allow us to connect on levels never experienced before.
+              allow us to connect on levels never experienced before. -->
             </p>
           </div>
           <div class="item-icons">
@@ -109,7 +109,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 body {
   margin: 0;
   padding: 0;
@@ -127,7 +127,6 @@ body {
   width: 100%;
   /* background: linear-gradient(to right, #fe8c00, #f83600); */
   background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
-
   display: flex;
   justify-content: center;
   align-items: center;
