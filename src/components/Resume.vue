@@ -10,10 +10,7 @@
             <div class="right_content">
               <h4>My journey into web development starts...</h4>
               <p>
-                I've always been interested in tech. Growing up, I was always
-                the person people would come to if they had an issue with their
-                devices. Some suggested that I pursue it further but I never
-                took it seriously. That is until an opportunity at LifeChoices
+                An opportunity at LifeChoices
                 presented itself at the most crucial moment. I decided to grab
                 the opportunity with both hands and see where it would take me
                 and now I'm enjoying every moment of it. I absolutely fell
@@ -27,40 +24,9 @@
           </li>
           <li>
             <div class="right_content">
-              <h4>Motion Control Cards</h4>
-              <p>
-                After I recovered, I began focusing on an old passion of mine.
-                Designing playing cards. I started developing my own custom
-                playing cards to be used for the art of cardistry. My business
-                plan was solid but due to the entire world shutting down because
-                of the pandemic, I had to give up on that dream.
-              </p>
-            </div>
-            <div class="left_content">
-              <h3>Jun 2019</h3>
-            </div>
-          </li>
-          <li>
-            <div class="right_content">
-              <h4>Lost myself...</h4>
-              <p>
-                Due to the high intensity of my previous job, I experienced a
-                tremendous amount of stress which eventually become hazardous to
-                my health. I was unable to continue working as my health and
-                mental state was under alot of strain. That's when I decided to
-                take a break and recalibrate myself.
-              </p>
-            </div>
-            <div class="left_content">
-              <h3>Aug 2018</h3>
-            </div>
-          </li>
-          <li>
-            <div class="right_content">
               <h4>SellDirect Marketing</h4>
               <p>
-                I decided to explore a different work environment and found
-                myself in a call centre. A high pace, target driven environment
+                A high pace, target driven environment
                 felt like the atmosphere for me at the time. My position was a
                 retentions agent underwritten by Telkom mobile. I got to engage
                 with clients, develop good relations with stakeholders and
@@ -111,22 +77,6 @@
             </div>
             <div class="left_content">
               <h3>Jan 2015</h3>
-            </div>
-          </li>
-          <li>
-            <div class="right_content">
-              <!-- <h2>Sample Text</h2>
-              <p>
-                A paragraph is defined as “a group of sentences or a single
-                sentence that forms a unit” (Lunsford and Connors 116). Length
-                and appearance do not determine whether a section in a paper is
-                a paragraph. For instance, in some styles of writing,
-                particularly journalistic styles, a paragraph can be just one
-                sentence long.
-              </p> -->
-            </div>
-            <div class="left_content">
-              <!-- <h3>August 2019</h3> -->
             </div>
           </li>
           <div style="clear: both"></div>
