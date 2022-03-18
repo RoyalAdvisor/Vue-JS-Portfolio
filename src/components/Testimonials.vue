@@ -169,10 +169,12 @@ body {
   margin-bottom: 5rem;
 }
 .card {
-  width: 24%;
+  margin-bottom: 1.5rem;
+  width: 49%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: #000;
+  padding: 0;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
@@ -204,6 +206,29 @@ cite {
   color: rgba(0, 0, 0, 85%);
   font-size: small;
 }
+@media only screen and (max-width: 1500px) {
+  .card {
+    margin-bottom: 1.5rem;
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+  }
+  .card-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .card-image img {
+    width: 100%;
+    border-radius: 50%;
+  }
+}
 
 @media only screen and (max-width: 1100px) {
   .testimonials-container {
@@ -232,6 +257,7 @@ cite {
     color: #000;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+    margin: 0;
   }
   .card-image {
     width: 100%;
@@ -280,6 +306,7 @@ cite {
     color: #000;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+    margin: 0;
   }
   .card-image {
     width: 100%;
@@ -328,6 +355,7 @@ cite {
     color: #000;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+    margin: 0;
   }
   .card-image {
     width: 100%;
