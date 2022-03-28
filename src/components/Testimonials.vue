@@ -252,7 +252,7 @@ cite {
     font-size: 35px;
     color: #fff;
     margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     text-align: center;
   }
   .card {
@@ -301,7 +301,7 @@ cite {
     font-size: 35px;
     color: #fff;
     margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     text-align: center;
   }
   .card {
@@ -350,7 +350,7 @@ cite {
     font-size: 35px;
     color: #fff;
     margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     text-align: center;
   }
   .card {

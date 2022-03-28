@@ -12,6 +12,7 @@ menu_btn.addEventListener("click", () => {
 
 window.onscroll = function () {
   scrollFunction();
+  scrollFunction2();
 };
 
 function scrollFunction() {
@@ -20,6 +21,14 @@ function scrollFunction() {
       "rgba(0,0,0,0.95)";
   } else {
     document.querySelector(".nav-container").style.background = "transparent";
+  }
+}
+function scrollFunction2() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.querySelector(".menu-container").style.background =
+      "rgba(0,0,0,0.95)";
+  } else {
+    document.querySelector(".menu-container").style.background = "transparent";
   }
 }
 

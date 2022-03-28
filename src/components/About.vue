@@ -182,8 +182,9 @@ export default {
   align-items: center;
   flex-direction: column;
   height: 150px;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 20%);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 30%);
   padding: 10px;
+  border-radius: 5px;
 }
 .item svg {
   width: 40%;
@@ -227,8 +228,9 @@ export default {
   align-items: center;
   flex-direction: column;
   height: 150px;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 20%);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 30%);
   padding: 10px;
+  border-radius: 5px;
 }
 .skill-item svg {
   width: 40%;
@@ -273,10 +275,8 @@ export default {
   .skill-icons {
     margin-top: 2rem;
     display: flex;
-    flex-wrap: wrap;
     padding: 0;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
     width: 100%;
   }
@@ -284,8 +284,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
     gap: 1rem;
   }
@@ -293,8 +292,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
     gap: 1rem;
   }
@@ -304,15 +302,14 @@ export default {
     justify-content: center;
     align-items: center;
     margin: 0;
-    justify-content: space-between;
-    flex-direction: row-reverse;
+    flex-direction: column;
     box-shadow: 0 0 2px rgba(0, 0, 0, 20%);
   }
   .item {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
     margin: 0;
     box-shadow: 0 0 2px rgba(0, 0, 0, 20%);
@@ -363,6 +360,27 @@ export default {
     align-items: center;
     justify-content: center;
   }
+  .about-top {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+  }
+  .about-bottom {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+  }
   .skill-icons {
     margin-top: 1.5rem;
     margin-bottom: 2rem;
@@ -374,6 +392,14 @@ export default {
     align-items: center;
     width: 100%;
     gap: 1rem;
+  }
+  .skill-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    flex-direction: row-reverse;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 20%);
   }
   .item {
     width: 100%;

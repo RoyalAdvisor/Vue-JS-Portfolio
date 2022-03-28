@@ -70,7 +70,7 @@ body {
   background: transparent;
   position: fixed;
   z-index: 5;
-  transition: 0.3s ease-in-out;
+  transition: 500ms ease-out;
 }
 .nav-container svg {
   color: #fff;
@@ -182,7 +182,7 @@ body {
   height: 100%;
   transition: 0.4s ease-in-out;
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 884px) {
   .nav {
     display: none;
   }
@@ -211,6 +211,7 @@ body {
     justify-content: flex start;
     align-items: center;
     z-index: 6;
+    transition: 500ms ease-out;
   }
   .mobile-nav.is-active {
     position: fixed;
@@ -235,7 +236,7 @@ body {
     transition: 0.4s ease-in-out;
   }
 }
-@media only screen and (max-width: 2000px) and (min-width: 771px) {
+@media only screen and (max-width: 2000px) and (min-width: 885px) {
   .menu {
     display: none;
   }

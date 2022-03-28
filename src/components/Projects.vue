@@ -86,6 +86,7 @@ export default {
   margin-top: 5rem;
   margin-bottom: 0;
   text-align: center;
+  padding: 0;
 }
 .project-container {
   display: flex;
@@ -212,7 +213,7 @@ export default {
     font-weight: 900;
     font-size: 35px;
     margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     text-align: center;
   }
   .project-heading {
@@ -314,7 +315,7 @@ export default {
   .project-heading h1 {
     font-weight: 900;
     font-size: 35px;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     margin-top: 5rem;
     text-align: center;
   }
@@ -393,7 +394,7 @@ export default {
     font-weight: 900;
     font-size: 35px;
     margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     text-align: center;
   }
   #splide01 {
