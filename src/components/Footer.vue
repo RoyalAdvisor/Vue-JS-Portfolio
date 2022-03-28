@@ -425,7 +425,7 @@ textarea {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 2rem;
-    width: 90%;
+    width: 95%;
     color: #696969;
     padding: 0;
   }
