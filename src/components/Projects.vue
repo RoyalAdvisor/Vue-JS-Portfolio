@@ -98,11 +98,17 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
   color: #000;
   line-height: 25px;
   margin: 20px 0;
   border-radius: 5px;
+}
+.splide__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
 }
 .slider-image {
   width: 100%;

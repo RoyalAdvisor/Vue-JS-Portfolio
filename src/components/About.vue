@@ -138,35 +138,35 @@ export default {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .about-container {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin: 5rem 0;
   width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  flex-wrap: wrap;
+  gap: 3rem;
 }
 .about-content {
-  width: 50%;
-  padding: 50px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-height: 500px;
 }
 .about-content h1 {
   font-weight: 900;
   font-size: 35px;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 2rem;
+  width: 100%;
 }
 .about-content p {
   line-height: 25px;
   color: rgba(0, 0, 0, 90%);
+  height: 150px;
 }
 .skill-icons {
   margin-top: 3rem;
@@ -191,40 +191,38 @@ export default {
 }
 
 .about-progress {
-  width: 50%;
+  width: 100%;
   display: flex;
-  padding: 50px;
   flex-direction: column;
   gap: 1rem;
-  max-height: 500px;
 }
 .about-progress h1 {
   font-weight: 900;
   font-size: 35px;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 2rem;
+  width: 100%;
 }
 .about-top {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex-wrap: wrap;
   width: 100%;
   gap: 1rem;
+  padding: 0;
 }
 .about-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex-wrap: wrap;
   width: 100%;
+  padding: 0;
   gap: 1rem;
 }
 .skill-item {
-  width: 30%;
+  width: 33%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,17 +247,15 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
     width: 100%;
-    row-gap: 1rem;
+    gap: 2.5rem;
   }
   .about-container h1 {
     margin-bottom: 2rem;
   }
   .about-content {
     width: 80%;
-    padding: 50px;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,7 +264,7 @@ export default {
   }
   .about-progress {
     width: 80%;
-    padding: 50px;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,10 +345,16 @@ export default {
     align-items: center;
     width: 100%;
     margin: 5rem 0;
+    gap: 1rem;
   }
   .about-content {
     width: 95%;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
   }
   .about-progress {
     width: 95%;
