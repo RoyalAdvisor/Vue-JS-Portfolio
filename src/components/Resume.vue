@@ -97,7 +97,6 @@ export default {
   font-size: 35px;
   text-align: center;
   margin-top: 5rem;
-  margin-bottom: 0;
 }
 * {
   z-index: 0;
@@ -117,10 +116,11 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5rem 0;
+  margin: 0;
   width: 100%;
   border-radius: 15px;
   background: #fff;
+  gap: 2rem;
 }
 /* .timeline:before {
   content: "";
@@ -238,11 +238,10 @@ export default {
   }
   .resume-container {
     margin-bottom: 5rem;
-    margin-top: 2rem;
+    margin-top: 0;
   }
   .resume-heading h1 {
     margin-top: 5rem;
-    margin-bottom: 2rem;
   }
   .timeline ul li {
     list-style: none;
@@ -288,12 +287,11 @@ export default {
     line-height: 25px;
   }
   .resume-container {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     margin-top: 2rem;
   }
   .resume-heading h1 {
     margin-top: 5rem;
-    margin-bottom: 2rem;
   }
   .timeline ul li {
     list-style: none;
@@ -309,14 +307,13 @@ export default {
     font-weight: 900;
     font-size: 35px;
     text-align: center;
-    margin-bottom: 2rem;
   }
   .resume-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     width: 100%;
     border-radius: 15px;
     background: #fff;

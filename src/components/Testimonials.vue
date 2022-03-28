@@ -159,7 +159,7 @@ body {
   font-size: 35px;
   color: #fff;
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 0;
   text-align: center;
 }
 .testimonials-container {
@@ -169,11 +169,11 @@ body {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 0;
+  margin-top: 2rem;
   margin-bottom: 5rem;
 }
 .card {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   width: 49%;
   display: flex;
   flex-direction: row;
@@ -213,7 +213,6 @@ cite {
 }
 @media only screen and (max-width: 1500px) {
   .card {
-    margin-bottom: 1.5rem;
     width: 49%;
     display: flex;
     flex-direction: row;
@@ -252,7 +251,7 @@ cite {
     font-size: 35px;
     color: #fff;
     margin-top: 5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     text-align: center;
   }
   .card {
@@ -301,7 +300,7 @@ cite {
     font-size: 35px;
     color: #fff;
     margin-top: 5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
   }
   .card {
@@ -350,7 +349,7 @@ cite {
     font-size: 35px;
     color: #fff;
     margin-top: 5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
   }
   .card {

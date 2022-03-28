@@ -83,17 +83,17 @@ export default {
   font-weight: 900;
   font-size: 35px;
   color: #fff;
-  margin-top: 5rem;
-  margin-bottom: 0;
   text-align: center;
   padding: 0;
+  margin-top: 5rem;
 }
 .project-container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 80%;
-  margin: 5rem 0;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border-radius: 5px;
 }
@@ -206,6 +206,7 @@ export default {
     align-items: center;
     justify-content: center;
     width: 80%;
+    margin-top: 2rem;
     margin-bottom: 5rem;
     background: none;
   }
