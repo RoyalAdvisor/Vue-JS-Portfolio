@@ -384,5 +384,8 @@ cite {
   .testimonials-heading {
     width: 100%;
   }
+  .card-content h3 {
+    width: 100%;
+  }
 }
 </style>
