@@ -10,12 +10,11 @@
             <div class="right_content">
               <h4>My journey into web development starts...</h4>
               <p>
-                An opportunity at LifeChoices
-                presented itself at the most crucial moment. I decided to grab
-                the opportunity with both hands and see where it would take me
-                and now I'm enjoying every moment of it. I absolutely fell
-                inlove with web development and I see my future within this
-                field.
+                An opportunity at LifeChoices presented itself at the most
+                crucial moment. I decided to grab the opportunity with both
+                hands and see where it would take me and now I'm enjoying every
+                moment of it. I absolutely fell inlove with web development and
+                I see my future within this field.
               </p>
             </div>
             <div class="left_content">
@@ -26,11 +25,11 @@
             <div class="right_content">
               <h4>SellDirect Marketing</h4>
               <p>
-                A high pace, target driven environment
-                felt like the atmosphere for me at the time. My position was a
-                retentions agent underwritten by Telkom mobile. I got to engage
-                with clients, develop good relations with stakeholders and
-                really understand a bit more about the business sector.
+                A high pace, target driven environment felt like the atmosphere
+                for me at the time. My position was a retentions agent
+                underwritten by Telkom mobile. I got to engage with clients,
+                develop good relations with stakeholders and really understand a
+                bit more about the business sector.
               </p>
             </div>
             <div class="left_content">
@@ -117,23 +116,22 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin: 5rem 0;
   width: 100%;
   border-radius: 15px;
   background: #fff;
 }
-.timeline:before {
+/* .timeline:before {
   content: "";
   position: absolute;
-  height: 100%;
+  height: 83%;
   left: 50%;
   place-self: center;
   width: 2px;
   top: -10px;
   background-color: rgba(0, 0, 0, 100%);
   z-index: -1;
-}
+} */
 .timeline {
   position: relative;
   margin: 0 auto;
@@ -153,7 +151,7 @@ export default {
   line-height: 25px;
   position: relative;
   width: 50%;
-  padding: 20px 40px;
+  padding: 20px 0;
 }
 
 .timeline ul li .right_content h4 {
@@ -245,6 +243,14 @@ export default {
     margin-top: 5rem;
     margin-bottom: 2rem;
   }
+  .timeline ul li {
+    list-style: none;
+    box-sizing: border-box;
+    line-height: 25px;
+    position: relative;
+    width: 50%;
+    padding: 20px 70px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -288,6 +294,14 @@ export default {
     margin-top: 5rem;
     margin-bottom: 2rem;
   }
+  .timeline ul li {
+    list-style: none;
+    box-sizing: border-box;
+    line-height: 25px;
+    position: relative;
+    width: 50%;
+    padding: 20px;
+  }
 }
 @media only screen and (max-width: 576px) {
   .resume-heading h1 {
@@ -305,6 +319,14 @@ export default {
     width: 100%;
     border-radius: 15px;
     background: #fff;
+  }
+  .timeline ul li {
+    list-style: none;
+    box-sizing: border-box;
+    line-height: 25px;
+    position: relative;
+    width: 50%;
+    padding: 20px;
   }
 }
 </style>

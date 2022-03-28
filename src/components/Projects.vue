@@ -86,8 +86,7 @@ export default {
   align-items: center;
   justify-content: center;
   width: 80%;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin: 5rem 0;
 }
 
 /* SLIDER */
