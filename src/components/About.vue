@@ -402,6 +402,7 @@ export default {
     justify-content: center;
     align-items: center;
     padding: 0;
+    gap: 3rem;
   }
   .about-content {
     width: 90%;
@@ -412,6 +413,14 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .about-content h1 {
+    font-weight: 900;
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+  .about-progress h1 {
+    margin: 3rem 0;
   }
 }
 </style>
