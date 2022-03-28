@@ -416,7 +416,7 @@ textarea {
     width: 100%;
   }
   .contact-item {
-    width: 90%;
+    width: 95%;
     color: #696969;
     padding: 0;
   }

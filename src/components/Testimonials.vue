@@ -354,7 +354,7 @@ cite {
     text-align: center;
   }
   .card {
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     color: #000;

@@ -111,11 +111,11 @@ export default {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 2rem;
-  padding: 50px;
+  gap: 1rem;
+  padding: 30px;
 }
 #splide01 {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,7 +127,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 45%;
+  width: 70%;
 }
 .splide-content {
   width: 100%;
@@ -135,6 +135,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  row-gap: 1rem;
 }
 .splide-box {
   width: 45%;
@@ -144,22 +145,23 @@ export default {
   align-items: center;
   margin: 0;
   padding: 20px 0;
+  gap: 1rem;
 }
 .slider-image {
   width: 100%;
   object-fit: cover;
   border-radius: 5px;
 }
-.splide-content h4,
-h5 {
-  margin: 0;
-  padding: 20px;
-  font-size: 1.5rem;
+.splide-content h5 {
   color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
 }
 .splide-content h4 {
+  color: #fff;
   margin: 0;
-  padding: 20px;
+  padding: 0;
   font-size: 2rem;
 }
 .tags {
@@ -217,24 +219,28 @@ h5 {
     width: 100%;
     padding: 0;
   }
-  .splide-item {
+  #splide01 {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .splide-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .splide-content {
+    width: 100%;
+    display: flex;
     flex-direction: column;
-    line-height: 10px;
-    border-radius: 5px;
-    background-color: red;
-  }
-  .splide-content h4,
-  h5 {
-    margin: 0;
-    padding: 20px;
-    font-size: 1.3rem;
-    text-align: center;
-  }
-  .splide-content h4 {
-    font-size: 1.8rem;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
   }
   .splide-box {
     width: 100%;
@@ -244,13 +250,22 @@ h5 {
     align-items: center;
     margin: 0;
     padding: 20px 0;
+    gap: 1rem;
   }
-  #splide01 {
+  .slider-image {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .splide-content h4,
+  h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .splide-content h4 {
+    font-size: 1.8rem;
   }
   .splide__arrow--next {
     right: 0.2em;
@@ -307,14 +322,42 @@ h5 {
     width: 100%;
     padding: 0;
   }
-  .splide-item {
+  #splide01 {
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .splide-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    line-height: 10px;
+  }
+  .splide-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+  }
+  .splide-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0;
+    gap: 1rem;
+  }
+  .slider-image {
+    width: 100%;
+    object-fit: cover;
     border-radius: 5px;
   }
   .splide__arrow--next {
@@ -327,11 +370,21 @@ h5 {
   }
 }
 @media only screen and (max-width: 576px) {
+  .SplideSlide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 20px;
+  }
   .project-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 95%;
     margin-top: 0;
     margin-bottom: 5rem;
     background: none;
@@ -343,14 +396,42 @@ h5 {
     margin-bottom: 2rem;
     text-align: center;
   }
-  .splide-item {
+  #splide01 {
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .splide-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    line-height: 10px;
+  }
+  .splide-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+  }
+  .splide-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0;
+    gap: 1rem;
+  }
+  .slider-image {
+    width: 100%;
+    object-fit: cover;
     border-radius: 5px;
   }
   .splide__arrow--next {
@@ -361,10 +442,9 @@ h5 {
     left: 0.2em;
     display: none;
   }
-  .splide-content h4,
-  h5 {
+  .splide-content h5 {
     margin: 0;
-    padding: 20px;
+    padding: 0;
     font-size: 1rem;
     text-align: center;
   }
@@ -382,7 +462,7 @@ h5 {
   .tags a {
     text-decoration: none;
     background: inherit;
-    padding: 10px;
+    padding: 5px;
     background: rgba(2, 245, 255, 1);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(18.5px);
@@ -390,9 +470,9 @@ h5 {
     border-radius: 5px;
     color: #1f1f1f;
     font-weight: 600;
-    font-size: medium;
+    font-size: 12px;
     text-align: center;
-    width: 120px;
+    width: 100px;
     transition: 500ms all;
     margin: 0;
   }

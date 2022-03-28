@@ -405,10 +405,10 @@ export default {
     gap: 3rem;
   }
   .about-content {
-    width: 90%;
+    width: 95%;
   }
   .about-progress {
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
