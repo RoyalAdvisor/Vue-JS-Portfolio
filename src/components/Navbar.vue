@@ -57,11 +57,11 @@ body {
 }
 
 .nav-link.active {
-  color: #ff3cac;
+  color: rgba(2, 245, 255, 1);
 }
 
 .nav-container {
-  padding: 10px;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,6 +76,8 @@ body {
   color: #fff;
   margin-left: 1.5rem;
   z-index: 0;
+  width: 50px;
+  height: 50px;
 }
 
 .menu {

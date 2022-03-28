@@ -181,7 +181,8 @@ body {
   padding: 0;
   border-radius: 5px;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 10%); */
 }
 .card-image {
   width: 100%;
@@ -219,7 +220,7 @@ cite {
     color: #000;
     border-radius: 5px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   }
   .card-image {
     width: 100%;
@@ -260,7 +261,7 @@ cite {
     flex-direction: row;
     color: #000;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     margin: 0;
   }
   .card-image {
@@ -309,7 +310,7 @@ cite {
     flex-direction: row;
     color: #000;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     margin: 0;
   }
   .card-image {
@@ -358,7 +359,7 @@ cite {
     flex-direction: column;
     color: #000;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     margin: 0;
   }
   .card-image {

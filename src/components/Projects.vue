@@ -9,24 +9,26 @@
         :options="{ rewind: true }"
         class="splide-container"
       >
-        <SplideSlide v-for="project of projects" :key="project.id">
-          <div class="splide-item">
-            <div class="splide-">
-              <img
-                :src="project.image"
-                :alt="project.title"
-                class="slider-image"
-              />
+        <SplideSlide
+          v-for="project of projects"
+          :key="project.id"
+          class="SplideSlide"
+        >
+          <div class="splide-image">
+            <img
+              :src="project.image"
+              :alt="project.title"
+              class="slider-image"
+            />
+          </div>
+          <div class="splide-box">
+            <div class="splide-content">
+              <h4>{{ project.title }}</h4>
+              <h5>{{ project.stack }}</h5>
             </div>
-            <div class="splide-box">
-              <div class="splide-content">
-                <h4>{{ project.title }}</h4>
-                <h5>{{ project.stack }}</h5>
-              </div>
-              <div class="tags">
-                <a :href="project.source" target="_blank">Source</a>
-                <a :href="project.live" target="_blank">Live</a>
-              </div>
+            <div class="tags">
+              <a :href="project.source" target="_blank">Source</a>
+              <a :href="project.live" target="_blank">Live</a>
             </div>
           </div>
         </SplideSlide>
@@ -91,26 +93,41 @@ export default {
   justify-content: center;
   width: 80%;
   margin: 5rem 0;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 5px;
 }
 
 /* SLIDER */
-.splide-item {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 15%);
-  padding: 10px;
+.splide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.SplideSlide {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  color: #000;
-  line-height: 25px;
-  margin: 20px 0;
-  border-radius: 5px;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 50px;
 }
-.slider-image {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 5px;
+#splide01 {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.splide-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
 }
 .splide-content {
   width: 100%;
@@ -120,13 +137,18 @@ export default {
   align-items: center;
 }
 .splide-box {
-  width: 100%;
+  width: 45%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   margin: 0;
   padding: 20px 0;
+}
+.slider-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 .splide-content h4,
 h5 {
@@ -198,12 +220,11 @@ h5 {
   .splide-item {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
     align-items: center;
     flex-direction: column;
-    width: 100%;
     line-height: 10px;
     border-radius: 5px;
+    background-color: red;
   }
   .splide-content h4,
   h5 {
@@ -226,6 +247,10 @@ h5 {
   }
   #splide01 {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .splide__arrow--next {
     right: 0.2em;

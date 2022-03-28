@@ -135,6 +135,7 @@ body {
   flex-direction: column;
   padding: 0;
   display: flex;
+  min-height: 100vh;
 }
 .landing-container {
   margin: 10rem auto;
@@ -143,7 +144,8 @@ body {
   display: flex;
   padding: 0;
   border-radius: 5px;
-  box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* box-shadow: 0 0 60px rgba(0, 0, 0, 20%); */
   z-index: 1;
 }
 .item-container {
@@ -203,7 +205,8 @@ body {
     display: flex;
     padding: 0;
     border-radius: 5px;
-    box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
     z-index: 1;
   }
   .item-container {
@@ -270,7 +273,7 @@ body {
     display: flex;
     padding: 0;
     border-radius: 5px;
-    box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     z-index: 1;
   }
   .my-image {
@@ -318,7 +321,7 @@ body {
     display: flex;
     padding: 0;
     border-radius: 5px;
-    box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     z-index: 1;
   }
   .my-image {

@@ -97,6 +97,7 @@ export default {
   font-size: 35px;
   text-align: center;
   margin-top: 5rem;
+  margin-bottom: 0;
 }
 * {
   z-index: 0;
