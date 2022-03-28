@@ -82,20 +82,13 @@ body {
 
 .menu {
   display: block;
-
   width: 40px;
   margin-left: 0.5rem;
-
   cursor: pointer;
-
   outline: none;
-
   appearance: none;
-
   background: none;
-
   border: none;
-
   z-index: 99;
 }
 
@@ -103,17 +96,11 @@ body {
 .menu:before,
 .menu:after {
   content: "";
-
   display: block;
-
   width: 100%;
-
   height: 5px;
-
   margin: 0 auto 5px;
-
   background-color: #fff;
-
   transition: 0.5s ease-in-out;
 }
 
@@ -135,7 +122,6 @@ body {
   justify-content: flex-end;
   width: 79%;
 }
-
 .nav a {
   text-decoration: none;
   font-weight: 500;
@@ -158,10 +144,9 @@ body {
   flex-direction: column;
   top: 0;
   right: -100%;
-
   background-color: rgba(0, 0, 0, 0.97);
   width: 50%;
-  height: 100%;
+  height: 100vh;
   z-index: 99;
   transition: 0.4s ease-in-out;
   box-shadow: 0px 0px 150px rgba(0, 0, 0, 0.7);
