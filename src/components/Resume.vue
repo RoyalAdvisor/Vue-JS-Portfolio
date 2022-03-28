@@ -155,7 +155,7 @@ export default {
 }
 
 .timeline ul li .right_content h4 {
-  color: #784ba0;
+  color: rgba(255, 94, 247, 1);
   padding: 0px 2px 18px 0px;
   line-height: 25px;
 }
@@ -185,7 +185,7 @@ export default {
   position: absolute;
   width: 10px;
   height: 10px;
-  background: #784ba0;
+  background: rgba(255, 94, 247, 1);
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 100%);
   right: -6px;
@@ -198,7 +198,7 @@ export default {
   position: absolute;
   width: 10px;
   height: 10px;
-  background: #2b86c5;
+  background: rgba(2, 245, 255, 1);
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 100%);
   left: -4px;

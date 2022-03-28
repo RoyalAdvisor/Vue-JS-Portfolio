@@ -124,7 +124,11 @@ body {
 #landing-page {
   width: 100%;
   /* background: linear-gradient(to right, #fe8c00, #f83600); */
-  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 94, 247, 1) 17.8%,
+    rgba(2, 245, 255, 1) 100.2%
+  );
   display: flex;
   justify-content: center;
   align-items: center;

@@ -66,7 +66,11 @@ export default {
 #projects-page {
   width: 100%;
   margin: 0;
-  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 94, 247, 1) 17.8%,
+    rgba(2, 245, 255, 1) 100.2%
+  );
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -147,24 +151,28 @@ h5 {
   margin: 0;
 }
 .tags a:hover {
-  background: rgba(0, 0, 0, 10%);
-  border: 2px solid #ff3cac;
-  box-shadow: rgba(0, 0, 0, 30%);
-  color: #ff3cac;
+  background: rgba(255, 94, 247, 1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(18.5px);
+  -webkit-backdrop-filter: blur(18.5px);
+  border-radius: 5px;
+  color: #fff;
 }
 .tags a {
   text-decoration: none;
   background: inherit;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 15%);
+  background: rgba(2, 245, 255, 1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(18.5px);
+  -webkit-backdrop-filter: blur(18.5px);
   border-radius: 5px;
-  border: 2px solid #784ba0;
-  color: #fff;
+  color: #1f1f1f;
   font-weight: 600;
   font-size: medium;
   text-align: center;
   width: 120px;
-  transition: 200ms ease-in-out;
+  transition: 500ms all;
   margin: 0;
 }
 @media only screen and (max-width: 1100px) {
@@ -228,23 +236,28 @@ h5 {
     display: none;
   }
   .tags a:hover {
-    background: rgba(0, 0, 0, 30%);
-    border: 2px solid #ff3cac;
-    color: #ff3cac;
+    background: rgba(255, 94, 247, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(18.5px);
+    -webkit-backdrop-filter: blur(18.5px);
+    border-radius: 5px;
+    color: #fff;
   }
   .tags a {
     text-decoration: none;
     background: inherit;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 15%);
+    background: rgba(2, 245, 255, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(18.5px);
+    -webkit-backdrop-filter: blur(18.5px);
     border-radius: 5px;
-    border: 2px solid #784ba0;
-    color: #fff;
+    color: #1f1f1f;
     font-weight: 600;
     font-size: medium;
     text-align: center;
     width: 120px;
-    transition: 200ms ease-in-out;
+    transition: 500ms all;
     margin: 0;
   }
 }
@@ -333,25 +346,29 @@ h5 {
   .splide-content h4 {
     font-size: 1.2rem;
   }
-
   .tags a:hover {
-    background: rgba(0, 0, 0, 30%);
-    border: 2px solid #ff3cac;
-    color: #ff3cac;
+    background: rgba(255, 94, 247, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(18.5px);
+    -webkit-backdrop-filter: blur(18.5px);
+    border-radius: 5px;
+    color: #fff;
   }
   .tags a {
     text-decoration: none;
     background: inherit;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 15%);
+    background: rgba(2, 245, 255, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(18.5px);
+    -webkit-backdrop-filter: blur(18.5px);
     border-radius: 5px;
-    border: 2px solid #784ba0;
-    color: #fff;
+    color: #1f1f1f;
     font-weight: 600;
     font-size: medium;
     text-align: center;
     width: 120px;
-    transition: 200ms ease-in-out;
+    transition: 500ms all;
     margin: 0;
   }
 }
