@@ -168,12 +168,13 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  row-gap: 1.5rem;
   flex-wrap: wrap;
   margin-top: 2rem;
   margin-bottom: 5rem;
 }
 .card {
-  margin-bottom: 2rem;
+  margin: 0;
   width: 49%;
   display: flex;
   flex-direction: row;
@@ -192,11 +193,11 @@ body {
   padding: 20px;
 }
 .card-image img {
-  width: 80%;
+  max-width: 200px;
   border-radius: 50%;
 }
 .card-content {
-  padding: 50px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -226,10 +227,10 @@ cite {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 0;
   }
   .card-image img {
-    width: 100%;
+    max-width: 100%;
     border-radius: 50%;
   }
 }

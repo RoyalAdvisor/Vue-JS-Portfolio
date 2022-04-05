@@ -241,6 +241,7 @@ export default {
   box-shadow: 0 0 2px rgba(0, 0, 0, 30%);
   padding: 10px;
   border-radius: 5px;
+  transition: all 0.5s
 }
 .skill-item svg {
   width: 40%;

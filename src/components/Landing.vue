@@ -138,7 +138,7 @@ body {
   min-height: 100vh;
 }
 .landing-container {
-  margin: 10rem auto;
+  margin: 6rem auto;
   width: 80%;
   background-color: #fff;
   display: flex;
@@ -152,13 +152,15 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
+  column-gap: 1.5rem;
 }
 .item-left {
-  width: 50%;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 50px;
+  padding: 0;
 }
 .my-image {
   border-radius: 5px;
@@ -166,13 +168,13 @@ body {
   object-fit: cover;
 }
 .item-right {
-  width: 50%;
+  width: 55%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   line-height: 25px;
-  padding: 50px;
+  padding: 0;
 }
 .greeting {
   font-weight: 100;
@@ -216,6 +218,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0;
   }
   .item-right {
     width: 100%;
@@ -255,7 +258,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
   }
   .icon {
     display: flex;
@@ -284,6 +287,12 @@ body {
   }
   .item-description {
     width: 100%;
+  }
+    .item-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
   }
   .item-right {
     width: 95%;
@@ -334,6 +343,7 @@ body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
   }
   .item-left {
     width: 90%;

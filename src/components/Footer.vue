@@ -16,8 +16,11 @@
             target="_blank"
             @submit.prevent="handleSubmit"
           >
+          <div class="form-input">
             <label>Name</label>
             <input type="text" placeholder="Name" required v-model="name" />
+          </div>
+          <div class="form-input">
             <label>E-mail</label>
             <input
               type="email"
@@ -26,6 +29,8 @@
               required
               v-model="email"
             />
+          </div>
+          <div class="form-input">
             <label>Message</label>
             <textarea
               name="textarea"
@@ -33,6 +38,7 @@
               required
               v-model="message"
             ></textarea>
+          </div>
             <button type="submit" class="btn">Send Message</button>
           </form>
         </div>
@@ -179,20 +185,32 @@ footer {
 .contact-container {
   margin: 5rem 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 80%;
-  column-gap: 5rem;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.5rem;
 }
 .contact-item {
-  width: 40%;
+  width: 60%;
   color: #696969;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .contact-heading p {
+  text-align: center;
   line-height: 25px;
+}
+.contact-heading {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 .contact-item h3 {
   color: #fff;
@@ -202,6 +220,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 label {
   color: #fff;
@@ -226,14 +245,25 @@ label {
   gap: 1rem;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   padding: 0;
   margin: 0;
+  row-gap: 1rem;
+}
+.form-input{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 60%;
+  margin: 0;
+  padding: 0;
+  row-gap: 1rem;
 }
 #contact-form input,
 textarea {
-  width: 60%;
+  width: 100%;
   background: rgba(255, 255, 255, 0.2);
   border: none;
   color: #fff;
@@ -260,10 +290,15 @@ textarea {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  row-gap: 2rem;
-  width: 40%;
+  width: 100%;
   color: #696969;
   padding: 0;
+}
+.social-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .social-item h3 {
   color: #fff;
@@ -271,9 +306,9 @@ textarea {
 .social-icons {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  row-gap: 0.5rem;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 1.5rem;
   flex-wrap: wrap;
 }
 .s-item {
@@ -299,75 +334,11 @@ textarea {
   color: #fff;
 }
 @media only screen and (max-width: 1100px) {
-  #contact-form input,
-  textarea {
-    width: 40%;
-    background: rgba(255, 255, 255, 0.2);
-    border: none;
-    color: #fff;
-    font-weight: 600;
-  }
-  footer {
-    display: flex;
-    width: 100%;
-    background: #000;
-    flex-wrap: wrap;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
-  }
-  .contact-container {
-    margin: 5rem 0;
-    gap: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+  .contact-item{
     width: 100%;
   }
-  .contact-item {
-    width: 80%;
-    color: #696969;
-    padding: 0;
-  }
-  .contact-heading p {
-    line-height: 25px;
-  }
-  .contact-item h3 {
-    color: #fff;
-  }
-  .social-item {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 2rem;
-    width: 80%;
-    color: #696969;
-    padding: 0;
-  }
-  .social-item h3 {
-    color: #fff;
-  }
-  .social-icons {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    column-gap: 3rem;
-    flex-wrap: wrap;
-  }
-  .s-item {
-    text-decoration: none;
-    color: #696969;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-  }
-  .s-item h5 {
-    color: #696969;
-    line-height: 25px;
-    padding: 0;
+  .form{
+    width: 100%;
   }
 }
 @media only screen and (max-width: 770px) {
@@ -381,27 +352,8 @@ textarea {
     flex-wrap: wrap;
     width: 100%;
   }
-  .contact-item {
-    width: 95%;
-    color: #696969;
-    padding: 0;
-  }
-  .social-item {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 2rem;
-    width: 95%;
-    color: #696969;
-    padding: 0;
-  }
-  #contact-form input,
-  textarea {
-    width: 50%;
-    background: rgba(255, 255, 255, 0.2);
-    border: none;
-    color: #fff;
-    font-weight: 600;
+  .form-input{
+    width: 80%;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -415,25 +367,23 @@ textarea {
     flex-wrap: wrap;
     width: 100%;
   }
-  .contact-item {
+  .contact-item{
     width: 95%;
-    color: #696969;
-    padding: 0;
   }
   .social-item {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 2rem;
     width: 95%;
-    color: #696969;
-    padding: 0;
+    row-gap: 2rem;
   }
-  .social-icons {
+  .form-input{
+    width: 100%;
+  }
+  .social-icons{
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
+    row-gap: 1rem;
+  }
+  .s-item{
+    justify-content: flex-start;
+    width: 100%;
   }
   #contact-form input,
   textarea {
