@@ -156,7 +156,7 @@ body {
 }
 .testimonials-heading h1 {
   font-weight: 900;
-  font-size: 35px;
+  font-size: 28px;
   color: #fff;
   margin-top: 5rem;
   margin-bottom: 0;
@@ -201,7 +201,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+.card-content h3 {
+  font-size: 15px;
+}
 .card-content p {
+  font-size: 14px;
   line-height: 25px;
   color: rgba(0, 0, 0, 90%);
 }
@@ -210,7 +214,8 @@ body {
 }
 cite {
   color: rgba(0, 0, 0, 85%);
-  font-size: small;
+  font-size: 12px;
+  margin: 10px 0;
 }
 @media only screen and (max-width: 1500px) {
   .testimonials-container {
@@ -252,7 +257,6 @@ cite {
   }
   .testimonials-heading h1 {
     font-weight: 900;
-    font-size: 35px;
     color: #fff;
     margin-top: 5rem;
     margin-bottom: 2rem;
@@ -301,7 +305,6 @@ cite {
   }
   .testimonials-heading h1 {
     font-weight: 900;
-    font-size: 35px;
     color: #fff;
     margin-top: 5rem;
     margin-bottom: 2rem;
@@ -350,7 +353,6 @@ cite {
   }
   .testimonials-heading h1 {
     font-weight: 900;
-    font-size: 35px;
     color: #fff;
     margin-top: 5rem;
     margin-bottom: 2rem;

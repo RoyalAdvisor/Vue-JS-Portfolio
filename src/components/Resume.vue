@@ -91,17 +91,16 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .resume-heading h1 {
   font-weight: 900;
-  font-size: 35px;
+  font-size: 28px;
   text-align: center;
   margin-top: 5rem;
 }
 * {
   z-index: 0;
   box-sizing: border-box;
-  font-family: "Oxygen", sans-serif;
 }
 #resume-page {
   width: 100%;
@@ -159,9 +158,11 @@ export default {
   color: rgba(255, 94, 247, 1);
   padding: 0px 2px 18px 0px;
   line-height: 25px;
+  font-size: 15px;
 }
 .right_content p {
   color: rgba(0, 0, 0, 90%);
+  font-size: 14px;
 }
 .timeline ul li:nth-child(odd) {
   float: left;
@@ -204,6 +205,7 @@ export default {
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 100%);
   left: -4px;
   top: 24px;
+  font-size: 15px;
 }
 
 .timeline ul li:nth-child(odd) .left_content {
@@ -212,7 +214,7 @@ export default {
   right: -165px;
   margin: 0;
   padding: 4px 8px;
-
+  font-size: 15px;
   color: black;
   border-radius: 5px;
 }
@@ -223,7 +225,7 @@ export default {
   left: -165px;
   margin: 0;
   padding: 4px 8px;
-
+  font-size: 15px;
   color: black;
   border-radius: 5px;
 }
@@ -283,7 +285,7 @@ export default {
     right: inherit;
   }
   .timeline ul li .right_content p {
-    font-size: medium;
+    font-size: 14px;
     line-height: 25px;
   }
   .resume-container {
@@ -305,7 +307,6 @@ export default {
 @media only screen and (max-width: 576px) {
   .resume-heading h1 {
     font-weight: 900;
-    font-size: 35px;
     text-align: center;
   }
   .resume-container {

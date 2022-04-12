@@ -161,12 +161,14 @@ export default {
 }
 .about-content h1 {
   font-weight: 900;
-  font-size: 35px;
+  font-size: 28px;
   text-align: center;
   margin: 0;
   width: 100%;
 }
 .about-content p {
+  text-align: center;
+  font-size: 15px;
   line-height: 25px;
   color: rgba(0, 0, 0, 90%);
   margin: 0;
@@ -178,6 +180,7 @@ export default {
   align-items: center;
   width: 100%;
   gap: 1rem;
+  font-size: 14px;
 }
 .item {
   width: 33%;
@@ -189,11 +192,20 @@ export default {
   box-shadow: 0 0 2px rgba(0, 0, 0, 30%);
   padding: 10px;
   border-radius: 5px;
+  transition: all 0.5s;
 }
 .item svg {
   width: 40%;
 }
-
+.item:nth-child(1):hover {
+  background-color: rgba(2, 245, 255, 1);
+}
+.item:nth-child(2):hover {
+  background-color: rgba(255, 94, 247, 1);
+}
+.item:nth-child(3):hover {
+  background-color: rgba(2, 245, 255, 1);
+}
 .about-progress {
   width: 100%;
   display: flex;
@@ -208,7 +220,7 @@ export default {
 }
 .about-progress h1 {
   font-weight: 900;
-  font-size: 35px;
+  font-size: 28px;
   text-align: center;
   margin: 0;
   width: 100%;
@@ -241,10 +253,29 @@ export default {
   box-shadow: 0 0 2px rgba(0, 0, 0, 30%);
   padding: 10px;
   border-radius: 5px;
-  transition: all 0.5s
+  transition: all 0.5s;
+  font-size: 14px;
 }
 .skill-item svg {
   width: 40%;
+}
+.about-top .skill-item:nth-child(1):hover {
+  background-color: rgba(255, 94, 247, 1);
+}
+.about-top .skill-item:nth-child(2):hover {
+  background-color: rgba(2, 245, 255, 1);
+}
+.about-top .skill-item:nth-child(3):hover {
+  background-color: rgba(255, 94, 247, 1);
+}
+.about-bottom .skill-item:nth-child(1):hover {
+  background-color: rgba(2, 245, 255, 1);
+}
+.about-bottom .skill-item:nth-child(2):hover {
+  background-color: rgba(255, 94, 247, 1);
+}
+.about-bottom .skill-item:nth-child(3):hover {
+  background-color: rgba(2, 245, 255, 1);
 }
 @media only screen and (max-width: 1100px) {
   #about-page {

@@ -63,7 +63,7 @@ export default {
 }
 .project-heading h1 {
   font-weight: 900;
-  font-size: 35px;
+  font-size: 28px;
   color: #fff;
   text-align: center;
   padding: 0;
@@ -111,7 +111,7 @@ export default {
   align-items: center;
   flex-direction: column;
   color: white;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 .content h3,
 h4 {
@@ -140,6 +140,12 @@ h4 {
   background-color: rgba(2, 245, 255, 1);
   text-align: center;
   border-radius: 5px;
+  font-size: 12px;
+  transition: 0.5s all;
+}
+.button:hover {
+  background-color: rgba(255, 94, 247, 1);
+  color: #fff;
 }
 .card:hover .content {
   opacity: 1;
@@ -159,7 +165,6 @@ h4 {
   }
   .project-heading h1 {
     font-weight: 900;
-    font-size: 35px;
     margin-top: 5rem;
     margin-bottom: 0;
     text-align: center;
@@ -184,7 +189,6 @@ h4 {
   }
   .project-heading h1 {
     font-weight: 900;
-    font-size: 35px;
     margin-bottom: 3rem;
     margin-top: 5rem;
     text-align: center;
@@ -206,7 +210,6 @@ h4 {
   }
   .project-heading h1 {
     font-weight: 900;
-    font-size: 35px;
     margin-top: 5rem;
     margin-bottom: 3rem;
     text-align: center;

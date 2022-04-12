@@ -202,6 +202,7 @@ footer {
   flex-direction: column;
 }
 .contact-heading p {
+  font-size: 14px;
   text-align: center;
   line-height: 25px;
 }
@@ -213,6 +214,7 @@ footer {
   width: 100%;
 }
 .contact-item h3 {
+  font-size: 28px;
   color: #fff;
 }
 .form {
@@ -223,6 +225,7 @@ footer {
   width: 100%;
 }
 label {
+  font-size: 15px;
   color: #fff;
   font-weight: 600;
 }
@@ -233,6 +236,7 @@ label {
   background: rgba(255, 255, 255, 0.6);
   transition: 200ms ease-in-out;
   border-radius: 5px;
+  font-size: 12px;
 }
 .btn:focus {
   transform: scale(0.9);
@@ -279,10 +283,12 @@ textarea {
   padding: 10px;
 }
 #contact-form input::placeholder {
+  font-size: 12px;
   color: #696969;
   font-weight: 600;
 }
 #contact-form textarea::placeholder {
+  font-size: 12px;
   color: #696969;
   font-weight: 600;
 }
@@ -301,7 +307,11 @@ textarea {
   flex-direction: column;
 }
 .social-item h3 {
+  font-size: 28px;
   color: #fff;
+}
+.social-item p {
+  font-size: 14px;
 }
 .social-icons {
   display: flex;
@@ -326,7 +336,7 @@ textarea {
 .s-item h5 {
   color: #696969;
   line-height: 25px;
-  font-size: 1rem;
+  font-size: 15px;
   padding: 0;
   transition: 200ms ease-in-out;
 }
@@ -372,14 +382,14 @@ textarea {
   }
   .social-item {
     width: 95%;
-    row-gap: 2rem;
+    row-gap: 0;
   }
   .form-input {
     width: 100%;
   }
   .social-icons {
     flex-direction: column;
-    row-gap: 1rem;
+    row-gap: 0.5rem;
   }
   .s-item {
     justify-content: flex-start;

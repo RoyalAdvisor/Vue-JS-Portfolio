@@ -53,7 +53,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Oxygen", sans-serif;
 }
 
 .nav-link.active {
@@ -125,14 +124,13 @@ body {
 .nav a {
   text-decoration: none;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
   color: #fff;
   transition: 200ms ease-in-out;
   padding: 20px;
 }
-
-.mobile:hover {
+.m-nav:focus {
   color: #ff3cac;
 }
 
@@ -166,7 +164,7 @@ body {
   text-decoration: none;
   width: 100%;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 14px;
   color: #fff;
   transition: 200ms ease-in-out;
   padding: 10px;
