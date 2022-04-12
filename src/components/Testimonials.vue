@@ -168,14 +168,14 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  row-gap: 1.5rem;
+  row-gap: 1rem;
   flex-wrap: wrap;
   margin-top: 2rem;
   margin-bottom: 5rem;
 }
 .card {
   margin: 0;
-  width: 49%;
+  width: 49.3%;
   display: flex;
   flex-direction: row;
   color: #000;
