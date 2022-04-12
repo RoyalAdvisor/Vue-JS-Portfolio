@@ -149,6 +149,7 @@ body {
 .item-container {
   width: 100%;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 20px;
   column-gap: 1.5rem;
@@ -166,7 +167,7 @@ body {
   object-fit: cover;
 }
 .item-right {
-  width: 55%;
+  width: 65%;
   height: auto;
   display: flex;
   justify-content: center;
