@@ -343,7 +343,7 @@ body {
   }
   .my-name {
     font-weight: 900;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 50px;
   }
   .greeting {
