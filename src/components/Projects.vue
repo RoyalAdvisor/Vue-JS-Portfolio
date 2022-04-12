@@ -10,8 +10,8 @@
           <h3>{{ project.title }}</h3>
           <h4>{{ project.stack }}</h4>
           <div class="buttons">
-            <a :href="project.source" class="button">Source</a>
-            <a :href="project.live" class="button">Live</a>
+            <a :href="project.source" class="button" target="_blank">Source</a>
+            <a :href="project.live" class="button" target="_blank">Live</a>
           </div>
         </div>
       </div>
