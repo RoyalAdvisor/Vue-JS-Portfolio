@@ -16,29 +16,29 @@
             target="_blank"
             @submit.prevent="handleSubmit"
           >
-          <div class="form-input">
-            <label>Name</label>
-            <input type="text" placeholder="Name" required v-model="name" />
-          </div>
-          <div class="form-input">
-            <label>E-mail</label>
-            <input
-              type="email"
-              placeholder="Email"
-              name="_replyto"
-              required
-              v-model="email"
-            />
-          </div>
-          <div class="form-input">
-            <label>Message</label>
-            <textarea
-              name="textarea"
-              placeholder="Message"
-              required
-              v-model="message"
-            ></textarea>
-          </div>
+            <div class="form-input">
+              <label>Name</label>
+              <input type="text" placeholder="Name" required v-model="name" />
+            </div>
+            <div class="form-input">
+              <label>E-mail</label>
+              <input
+                type="email"
+                placeholder="Email"
+                name="_replyto"
+                required
+                v-model="email"
+              />
+            </div>
+            <div class="form-input">
+              <label>Message</label>
+              <textarea
+                name="textarea"
+                placeholder="Message"
+                required
+                v-model="message"
+              ></textarea>
+            </div>
             <button type="submit" class="btn">Send Message</button>
           </form>
         </div>
@@ -183,7 +183,7 @@ footer {
   align-items: center;
 }
 .contact-container {
-  margin: 5rem 0;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -206,7 +206,7 @@ footer {
   line-height: 25px;
 }
 .contact-heading {
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -251,7 +251,7 @@ label {
   margin: 0;
   row-gap: 1rem;
 }
-.form-input{
+.form-input {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -334,10 +334,10 @@ textarea {
   color: #fff;
 }
 @media only screen and (max-width: 1100px) {
-  .contact-item{
+  .contact-item {
     width: 100%;
   }
-  .form{
+  .form {
     width: 100%;
   }
 }
@@ -352,7 +352,7 @@ textarea {
     flex-wrap: wrap;
     width: 100%;
   }
-  .form-input{
+  .form-input {
     width: 80%;
   }
 }
@@ -367,21 +367,21 @@ textarea {
     flex-wrap: wrap;
     width: 100%;
   }
-  .contact-item{
+  .contact-item {
     width: 95%;
   }
   .social-item {
     width: 95%;
     row-gap: 2rem;
   }
-  .form-input{
+  .form-input {
     width: 100%;
   }
-  .social-icons{
+  .social-icons {
     flex-direction: column;
     row-gap: 1rem;
   }
-  .s-item{
+  .s-item {
     justify-content: flex-start;
     width: 100%;
   }

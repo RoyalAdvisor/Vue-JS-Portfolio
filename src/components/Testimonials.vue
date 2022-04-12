@@ -4,12 +4,12 @@
       <h1>TESTIMONIALS</h1>
     </div>
     <div class="testimonials-container">
-      <div class="card" v-for="item of testimonials" :key="item">
+      <div class="card" v-for="item of testimonials" :key="item._id">
         <div class="card-image">
-          <img :src="item.image" :alt="item.name" />
+          <img :src="item.profile" :alt="item.fullname" />
         </div>
         <div class="card-content">
-          <h3>{{ item.name }}</h3>
+          <h3>{{ item.fullname }}</h3>
           <p>{{ item.content }}</p>
           <div class="rating">
             <span>
@@ -108,7 +108,7 @@
               </svg>
             </span>
           </div>
-          <cite>{{ item.title }}</cite>
+          <cite>{{ item.occupation }}</cite>
         </div>
       </div>
     </div>
@@ -116,7 +116,7 @@
 </template>
 
 <script>
-const baseURL = "https://nadeem-api.herokuapp.com/";
+const baseURL = "https://vue-port-api.herokuapp.com/";
 export default {
   name: "Testimonials",
   data() {
@@ -125,7 +125,7 @@ export default {
     };
   },
   mounted() {
-    fetch(`${baseURL}testimonials`)
+    fetch(`${baseURL}test`)
       .then((res) => res.json())
       .then((data) => (this.testimonials = data))
       .catch((err) => console.error(err.message));
@@ -213,6 +213,9 @@ cite {
   font-size: small;
 }
 @media only screen and (max-width: 1500px) {
+  .testimonials-container {
+    row-gap: 1rem;
+  }
   .card {
     width: 49%;
     display: flex;
@@ -243,7 +246,7 @@ cite {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 0;
     margin-bottom: 5rem;
   }
@@ -292,7 +295,7 @@ cite {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 0;
     margin-bottom: 5rem;
   }
@@ -341,7 +344,7 @@ cite {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 0.9rem;
+    gap: 1rem;
     margin-top: 0;
     margin-bottom: 5rem;
   }
