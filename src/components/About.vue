@@ -197,15 +197,6 @@ export default {
 .item svg {
   width: 40%;
 }
-.item:nth-child(1):hover {
-  background-color: rgba(2, 245, 255, 1);
-}
-.item:nth-child(2):hover {
-  background-color: rgba(255, 94, 247, 1);
-}
-.item:nth-child(3):hover {
-  background-color: rgba(2, 245, 255, 1);
-}
 .about-progress {
   width: 100%;
   display: flex;
@@ -258,24 +249,6 @@ export default {
 }
 .skill-item svg {
   width: 40%;
-}
-.about-top .skill-item:nth-child(1):hover {
-  background-color: rgba(255, 94, 247, 1);
-}
-.about-top .skill-item:nth-child(2):hover {
-  background-color: rgba(2, 245, 255, 1);
-}
-.about-top .skill-item:nth-child(3):hover {
-  background-color: rgba(255, 94, 247, 1);
-}
-.about-bottom .skill-item:nth-child(1):hover {
-  background-color: rgba(2, 245, 255, 1);
-}
-.about-bottom .skill-item:nth-child(2):hover {
-  background-color: rgba(255, 94, 247, 1);
-}
-.about-bottom .skill-item:nth-child(3):hover {
-  background-color: rgba(2, 245, 255, 1);
 }
 @media only screen and (max-width: 1100px) {
   #about-page {
