@@ -58,7 +58,9 @@ body {
 .nav-link.active {
   color: rgba(2, 245, 255, 1);
 }
-
+.nav-link:hover {
+  color: rgba(255, 94, 247, 1);
+}
 .nav-container {
   padding: 0;
   display: flex;
@@ -76,19 +78,22 @@ body {
   margin-left: 1.5rem;
   z-index: 0;
   width: 50px;
-  height: 50px;
+  height: auto;
 }
 
 .menu {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 40px;
-  margin-left: 0.5rem;
+  row-gap: 5px;
   cursor: pointer;
   outline: none;
-  appearance: none;
   background: none;
   border: none;
   z-index: 99;
+  margin: 0;
 }
 
 .menu .bar,
@@ -98,7 +103,7 @@ body {
   display: block;
   width: 100%;
   height: 5px;
-  margin: 0 auto 5px;
+  margin: 0;
   background-color: #fff;
   transition: 0.5s ease-in-out;
 }
@@ -120,8 +125,10 @@ body {
   display: flex;
   justify-content: flex-end;
   width: 79%;
+  height: 40px;
 }
 .nav a {
+  height: inherit;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -129,6 +136,9 @@ body {
   color: #fff;
   transition: 200ms ease-in-out;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .m-nav:focus {
   color: #ff3cac;
@@ -143,11 +153,11 @@ body {
   top: 0;
   right: -100%;
   background-color: rgba(0, 0, 0, 0.97);
-  width: 50%;
+  width: 70%;
   height: 100vh;
   z-index: 99;
   transition: 0.4s ease-in-out;
-  box-shadow: 0px 0px 150px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 120px rgba(0, 0, 0, 90%);
 }
 
 .m-nav {
@@ -177,7 +187,7 @@ body {
   flex-direction: column;
   top: 0;
   right: 0;
-  height: 100%;
+  height: 100vh;
   transition: 0.4s ease-in-out;
 }
 @media only screen and (max-width: 884px) {
@@ -202,12 +212,10 @@ body {
   .menu-container {
     background-color: rgba(0, 0, 0, 0.97);
     width: 100%;
-    height: 60px;
+    height: 35px;
     position: fixed;
     top: 0;
     display: flex;
-    justify-content: flex start;
-    align-items: center;
     z-index: 6;
     transition: 500ms ease-out;
   }

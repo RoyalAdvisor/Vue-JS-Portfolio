@@ -238,10 +238,8 @@ label {
   border-radius: 5px;
   font-size: 12px;
 }
-.btn:focus {
-  transform: scale(0.9);
-}
 .btn:hover {
+  border-radius: 25px;
   background: rgba(255, 255, 255, 0.9);
 }
 #contact-form {

@@ -142,10 +142,12 @@ h4 {
   border-radius: 5px;
   font-size: 12px;
   transition: 0.5s all;
+  padding: 5px;
 }
 .button:hover {
   background-color: rgba(255, 94, 247, 1);
   color: #fff;
+  border-radius: 25px;
 }
 .card:hover .content {
   opacity: 1;
@@ -193,6 +195,9 @@ h4 {
     margin-top: 5rem;
     text-align: center;
   }
+  .button {
+    padding: 5px;
+  }
   .project-heading {
     width: 100%;
     padding: 0;
@@ -213,6 +218,9 @@ h4 {
     margin-top: 5rem;
     margin-bottom: 3rem;
     text-align: center;
+  }
+  .button {
+    padding: 5px;
   }
 }
 </style>

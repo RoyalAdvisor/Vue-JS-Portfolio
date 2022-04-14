@@ -346,5 +346,8 @@ body {
     font-size: 30px;
     line-height: 50px;
   }
+  .my-title {
+    font-size: 20px;
+  }
 }
 </style>

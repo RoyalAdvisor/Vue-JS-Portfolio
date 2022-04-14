@@ -16,7 +16,6 @@ import Projects from "./components/Projects.vue";
 import Resume from "./components/Resume.vue";
 import Testimonials from "./components/Testimonials.vue";
 import Footer from "./components/Footer.vue";
-import BNav from "./components/BNav.vue";
 
 export default {
   name: "App",
@@ -28,7 +27,6 @@ export default {
     Navbar,
     Testimonials,
     Footer,
-    BNav,
   },
 };
 </script>

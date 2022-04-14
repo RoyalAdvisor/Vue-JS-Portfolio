@@ -216,6 +216,7 @@ cite {
   color: rgba(0, 0, 0, 85%);
   font-size: 12px;
   margin: 10px 0;
+  width: 100%;
 }
 @media only screen and (max-width: 1500px) {
   .testimonials-container {
