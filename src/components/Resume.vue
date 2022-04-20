@@ -121,17 +121,17 @@ export default {
   background: #fff;
   gap: 2rem;
 }
-/* .timeline:before {
+.timeline:before {
   content: "";
   position: absolute;
-  height: 83%;
+  height: 82%;
   left: 50%;
   place-self: center;
   width: 2px;
-  top: -10px;
+  top: 25px;
   background-color: rgba(0, 0, 0, 100%);
   z-index: -1;
-} */
+}
 .timeline {
   position: relative;
   margin: 0 auto;
@@ -169,6 +169,7 @@ export default {
   text-align: left;
   clear: both;
   line-height: 25px;
+  padding: 20px;
 }
 
 .timeline ul li:nth-child(even) {
@@ -176,6 +177,7 @@ export default {
   text-align: right;
   clear: both;
   line-height: 25px;
+  padding: 20px;
 }
 
 .left_content {
@@ -253,6 +255,17 @@ export default {
     width: 50%;
     padding: 20px 70px;
   }
+  .timeline:before {
+    content: "";
+    position: absolute;
+    height: 84%;
+    left: 50%;
+    place-self: center;
+    width: 2px;
+    top: 25px;
+    background-color: rgba(0, 0, 0, 100%);
+    z-index: -1;
+  }
 }
 
 @media (max-width: 767px) {
@@ -303,6 +316,12 @@ export default {
     width: 50%;
     padding: 20px;
   }
+  .timeline:before {
+    content: "";
+    position: absolute;
+    height: 82%;
+    top: -10px;
+  }
 }
 @media only screen and (max-width: 576px) {
   .resume-heading h1 {
@@ -326,6 +345,16 @@ export default {
     position: relative;
     width: 50%;
     padding: 20px;
+  }
+  .timeline:before {
+    content: "";
+    position: absolute;
+    height: 84%;
+    top: -10px;
+  }
+  .timeline ul li:nth-child(odd) .left_content,
+  .timeline ul li:nth-child(even) .left_content {
+    padding: 0;
   }
 }
 </style>

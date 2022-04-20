@@ -39,7 +39,7 @@
                 v-model="message"
               ></textarea>
             </div>
-            <button type="submit" class="btn">Send Message</button>
+            <button type="submit" class="btn">Submit</button>
           </form>
         </div>
       </div>
@@ -236,7 +236,8 @@ label {
   background: rgba(255, 255, 255, 0.6);
   transition: 200ms ease-in-out;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 14px;
+  min-width: 100px;
 }
 .btn:hover {
   border-radius: 25px;
@@ -280,15 +281,11 @@ textarea {
   height: 80px;
   padding: 10px;
 }
-#contact-form input::placeholder {
-  font-size: 12px;
-  color: #696969;
-  font-weight: 600;
-}
+#contact-form input::placeholder,
 #contact-form textarea::placeholder {
-  font-size: 12px;
+  font-size: 10px;
   color: #696969;
-  font-weight: 600;
+  font-style: italic;
 }
 .social-item {
   display: flex;
