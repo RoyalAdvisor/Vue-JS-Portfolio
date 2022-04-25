@@ -221,6 +221,7 @@ body {
 }
 @media only screen and (max-width: 1100px) {
   .landing-container {
+    position: relative;
     width: 80%;
     background-color: #fff;
     display: flex;
@@ -251,10 +252,10 @@ body {
 }
 @media only screen and (max-width: 770px) {
   #landing-page {
-    min-height: 150vh;
     position: relative;
   }
   .landing-container {
+    position: relative;
     margin: 5rem 0;
     width: 95%;
     background-color: #fff;
@@ -263,6 +264,9 @@ body {
     border-radius: 5px;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     z-index: 1;
+  }
+  .banner {
+    display: none;
   }
   .my-image {
     border-radius: 5px;
@@ -311,13 +315,13 @@ body {
 }
 @media only screen and (max-width: 576px) {
   #landing-page {
-    min-height: 150vh;
     position: relative;
   }
   .banner {
-    min-height: 200px;
+    display: none;
   }
   .landing-container {
+    position: relative;
     margin: 5rem 0;
     width: 95%;
     background-color: #fff;
