@@ -221,7 +221,6 @@ body {
 }
 @media only screen and (max-width: 1100px) {
   .landing-container {
-    position: relative;
     width: 80%;
     background-color: #fff;
     display: flex;
@@ -256,6 +255,7 @@ body {
   }
   .landing-container {
     position: relative;
+    bottom: 0;
     margin: 5rem 0;
     width: 95%;
     background-color: #fff;
