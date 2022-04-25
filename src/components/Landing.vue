@@ -138,7 +138,7 @@ body {
 }
 .landing-container {
   position: absolute;
-  bottom: -100px;
+  bottom: -50px;
   margin: 6rem auto;
   width: 80%;
   background-color: #fff;
