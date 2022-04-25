@@ -1,5 +1,6 @@
 <template>
   <section id="landing-page">
+    <div class="banner"></div>
     <div class="landing-container">
       <div class="item-container">
         <div class="item-left">
@@ -136,6 +137,8 @@ body {
   min-height: 100vh;
 }
 .landing-container {
+  position: absolute;
+  bottom: -100px;
   margin: 6rem auto;
   width: 80%;
   background-color: #fff;
@@ -145,6 +148,15 @@ body {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   /* box-shadow: 0 0 60px rgba(0, 0, 0, 20%); */
   z-index: 1;
+}
+.banner {
+  position: absolute;
+  bottom: 0;
+  border: 10px solid #fff;
+  display: flex;
+  width: 100%;
+  min-height: 250px;
+  background-color: #fff;
 }
 .item-container {
   width: 100%;
@@ -238,6 +250,10 @@ body {
   }
 }
 @media only screen and (max-width: 770px) {
+  #landing-page {
+    min-height: 150vh;
+    position: relative;
+  }
   .landing-container {
     margin: 5rem 0;
     width: 95%;
@@ -294,6 +310,13 @@ body {
   }
 }
 @media only screen and (max-width: 576px) {
+  #landing-page {
+    min-height: 120vh;
+    position: relative;
+  }
+  .banner {
+    min-height: 200px;
+  }
   .landing-container {
     margin: 5rem 0;
     width: 95%;
