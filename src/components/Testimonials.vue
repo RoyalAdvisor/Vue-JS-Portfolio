@@ -3,6 +3,11 @@
     <div class="testimonials-heading">
       <h1>TESTIMONIALS</h1>
     </div>
+    <div v-if="loading">
+      <div class="loading">
+        <Loader />
+      </div>
+    </div>
     <div class="testimonials-container">
       <div class="card" v-for="item of testimonials" :key="item._id">
         <div class="card-image">
@@ -116,18 +121,27 @@
 </template>
 
 <script>
+import Loader from "./Loader.vue";
 const baseURL = "https://vue-port-api.herokuapp.com/";
 export default {
   name: "Testimonials",
   data() {
     return {
       testimonials: [],
+      loading: false,
     };
   },
+  components: {
+    Loader,
+  },
   mounted() {
+    this.loading = true;
     fetch(`${baseURL}test`)
       .then((res) => res.json())
-      .then((data) => (this.testimonials = data))
+      .then((data) => {
+        this.testimonials = data;
+        this.loading = false;
+      })
       .catch((err) => console.error(err.message));
   },
 };
@@ -172,6 +186,12 @@ body {
   flex-wrap: wrap;
   margin-top: 2rem;
   margin-bottom: 5rem;
+}
+.loading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .card {
   margin: 0;

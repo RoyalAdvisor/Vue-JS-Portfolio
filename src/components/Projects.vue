@@ -3,6 +3,11 @@
     <div class="project-heading">
       <h1>MY PROJECTS</h1>
     </div>
+    <div v-if="loading">
+      <div class="loading">
+        <Loader />
+      </div>
+    </div>
     <div class="project-container" v-if="projects">
       <div class="card" v-for="project in projects" :key="project._id">
         <img :src="project.image" :alt="project.title" class="image" />
@@ -22,23 +27,28 @@
 <script>
 import { Splide, SplideSlide } from "@splidejs/vue-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
+import Loader from "./Loader.vue";
 const baseURL = "https://vue-port-api.herokuapp.com/";
 export default {
   name: "Projects",
   components: {
     Splide,
     SplideSlide,
+    Loader,
   },
   data() {
     return {
       projects: [],
+      loading: false,
     };
   },
   mounted() {
+    this.loading = true;
     fetch(`${baseURL}projects`)
       .then((res) => res.json())
       .then((data) => {
         this.projects = data;
+        this.loading = false;
       })
       .catch((err) => console.error(err.message));
   },
@@ -80,6 +90,12 @@ export default {
   margin-bottom: 5rem;
   border-radius: 5px;
   gap: 1rem;
+}
+.loading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .card {
   position: relative;
